@@ -1,0 +1,11 @@
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Domain\bin\Debug\net9.0\MiniVentas.Domain.deps.json
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Domain\bin\Debug\net9.0\MiniVentas.Domain.dll
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Domain\bin\Debug\net9.0\MiniVentas.Domain.pdb
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Domain\obj\Debug\net9.0\MiniVentas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Domain\obj\Debug\net9.0\MiniVentas.Domain.AssemblyInfoInputs.cache
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Domain\obj\Debug\net9.0\MiniVentas.Domain.AssemblyInfo.cs
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Domain\obj\Debug\net9.0\MiniVentas.Domain.csproj.CoreCompileInputs.cache
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Domain\obj\Debug\net9.0\MiniVentas.Domain.dll
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Domain\obj\Debug\net9.0\refint\MiniVentas.Domain.dll
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Domain\obj\Debug\net9.0\MiniVentas.Domain.pdb
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Domain\obj\Debug\net9.0\ref\MiniVentas.Domain.dll

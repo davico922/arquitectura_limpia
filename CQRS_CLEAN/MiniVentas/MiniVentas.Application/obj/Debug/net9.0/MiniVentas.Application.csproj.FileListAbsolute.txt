@@ -1,0 +1,15 @@
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Application\bin\Debug\net9.0\MiniVentas.Application.deps.json
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Application\bin\Debug\net9.0\MiniVentas.Application.dll
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Application\bin\Debug\net9.0\MiniVentas.Application.pdb
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Application\bin\Debug\net9.0\MiniVentas.Domain.dll
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Application\bin\Debug\net9.0\MiniVentas.Domain.pdb
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Application\obj\Debug\net9.0\MiniVentas.Application.csproj.AssemblyReference.cache
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Application\obj\Debug\net9.0\MiniVentas.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Application\obj\Debug\net9.0\MiniVentas.Application.AssemblyInfoInputs.cache
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Application\obj\Debug\net9.0\MiniVentas.Application.AssemblyInfo.cs
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Application\obj\Debug\net9.0\MiniVentas.Application.csproj.CoreCompileInputs.cache
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Application\obj\Debug\net9.0\MiniVent.CC4684C3.Up2Date
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Application\obj\Debug\net9.0\MiniVentas.Application.dll
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Application\obj\Debug\net9.0\refint\MiniVentas.Application.dll
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Application\obj\Debug\net9.0\MiniVentas.Application.pdb
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Application\obj\Debug\net9.0\ref\MiniVentas.Application.dll

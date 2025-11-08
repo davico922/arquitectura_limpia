@@ -1,0 +1,138 @@
+referencias
+
+application con domain
+infraestructure con domain
+api con application
+api con infraestructure
+
+
+API → Application → Domain
+API → Infrastructure → Domain
+
+
+MINI_VENTAS.API
+
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
+dotnet add package Swashbuckle.AspNetCore
+dotnet add package MediatR.Extensions.Microsoft.DependencyInjection  // SE INSTALA CUANDO SE USA NET CORE MENOR A 9 
+
+MINIVENTAS.Application
+
+dotnet add package MediatR
+dotnet add package AutoMapper
+dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection
+
+
+MINIVENTAS.Infrastructure
+
+dotnet add package Dapper
+dotnet add package Microsoft.Data.SqlClient
+
+
+
+
+APIS_CQRS/
+├─ MNI_VENTAS.API/              → Capa de Presentación (Web API)
+├─ MNI_VENTAS.Application/      → Capa de Casos de uso (lógica)
+├─ MNI_VENTAS.Domain/           → Capa de Entidades y contratos
+└─ MNI_VENTAS.Infrastructure/   → Capa de datos (Dapper, repositorios, contexto)
+
+
+El Domain es el corazón → conoce tus entidades reales.
+
+El Application es el cerebro → decide qué datos mover y cómo exponerlos.
+
+El Infrastructure es las manos → ejecuta consultas o SPs con Dapper.
+
+El API es la boca → muestra el resultado al cliente.
+
+
+| Tipo                             | Dónde vive     | Para qué sirve                                                  |
+| -------------------------------- | -------------- | --------------------------------------------------------------- |
+| **Entidad (`Producto`)**         | Domain         | Representa tu tabla o modelo de negocio base.                   |
+| **DTO (`ListadoProductoDto`)**   | Application    | Representa datos “customizados” para la API (SPs, joins, etc.). |
+| **Repositorio (interface)**      | Domain         | Define qué operaciones se pueden hacer.                         |
+| **Repositorio (implementación)** | Infrastructure | Usa Dapper para ejecutar consultas.                             |
+| **Handler**                      | Application    | Coordina el flujo de datos.                                     |
+| **Controller**                   | API            | Expone los endpoints HTTP.                                      |
+
+
+
+🧠 1️⃣ DOMAIN – Qué es y qué lleva
+
+👉 Es la base del proyecto: define las entidades y las interfaces (contratos).
+No tiene lógica de infraestructura, ni dependencias a otros proyectos.
+
+Carpetas:
+MNI_VENTAS.Domain/
+ ├─ Entities/
+ └─ Interfaces/
+
+
+⚙️ 2️⃣ INFRASTRUCTURE – Dapper y acceso a datos
+
+👉 Aquí implementas lo que definiste en Domain.
+Conectas con la base de datos usando Dapper y defines el contexto.
+
+Carpetas:
+MNI_VENTAS.Infrastructure/
+ ├─ Context/
+ ├─ Repositories/
+ └─ DependencyInjection.cs
+
+MNI_VENTAS.sln
+│
+├── MNI_VENTAS.Domain/
+│   ├── Entities/                👈 Entidades reales de negocio (tablas)
+│   │   ├── Producto.cs
+│   │   ├── Cliente.cs
+│   │   └── Venta.cs
+│   │
+│   ├── Models/                  👈 Modelos de lectura (SPs, vistas)
+│   │   ├── ListadoProducto.cs
+│   │   ├── ResumenVentas.cs
+│   │   └── DetalleVenta.cs
+│   │
+│   └── Interfaces/              👈 Contratos (repositorios, servicios de dominio)
+│       ├── IProductoRepository.cs
+│       ├── IClienteRepository.cs
+│       └── IVentaRepository.cs
+│
+├── MNI_VENTAS.Application/
+│   ├── DTOs/                    👈 Objetos para transporte de datos al API
+│   │   ├── ProductoDto.cs
+│   │   ├── ListadoProductoDto.cs
+│   │   └── VentaDto.cs
+│   │
+│   ├── Features/                👈 Implementación CQRS
+│   │   ├── Commands/
+│   │   │   ├── CrearProductoCommand.cs
+│   │   │   └── ActualizarProductoCommand.cs
+│   │   └── Queries/
+│   │       ├── GetAllProductosQuery.cs
+│   │       └── GetProductoByIdQuery.cs
+│   │
+│   ├── Mappings/                👈 AutoMapper profiles
+│   │   └── MappingProfile.cs
+│   │
+│   └── DependencyInjection.cs   👈 Registro de servicios y handlers
+│
+├── MNI_VENTAS.Infrastructure/
+│   ├── Context/                 👈 Dapper context / conexión a BD
+│   │   └── DapperContext.cs
+│   │
+│   ├── Repositories/            👈 Implementaciones concretas de interfaces
+│   │   ├── ProductoRepository.cs
+│   │   ├── ClienteRepository.cs
+│   │   └── VentaRepository.cs
+│   │
+│   └── DependencyInjection.cs   👈 Registro de repositorios en DI
+│
+└── MNI_VENTAS.API/
+    ├── Controllers/
+    │   ├── ProductoController.cs
+    │   ├── ClienteController.cs
+    │   └── VentaController.cs
+    │
+    ├── appsettings.json
+    └── Program.cs

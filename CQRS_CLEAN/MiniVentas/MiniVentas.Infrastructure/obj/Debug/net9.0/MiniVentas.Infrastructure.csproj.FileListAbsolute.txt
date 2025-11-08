@@ -1,0 +1,17 @@
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\bin\Debug\net9.0\MiniVentas.Infrastructure.deps.json
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\bin\Debug\net9.0\MiniVentas.Infrastructure.dll
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\bin\Debug\net9.0\MiniVentas.Infrastructure.pdb
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\bin\Debug\net9.0\MiniVentas.Application.dll
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\bin\Debug\net9.0\MiniVentas.Domain.dll
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\bin\Debug\net9.0\MiniVentas.Application.pdb
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\bin\Debug\net9.0\MiniVentas.Domain.pdb
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\obj\Debug\net9.0\MiniVentas.Infrastructure.csproj.AssemblyReference.cache
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\obj\Debug\net9.0\MiniVentas.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\obj\Debug\net9.0\MiniVentas.Infrastructure.AssemblyInfoInputs.cache
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\obj\Debug\net9.0\MiniVentas.Infrastructure.AssemblyInfo.cs
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\obj\Debug\net9.0\MiniVentas.Infrastructure.csproj.CoreCompileInputs.cache
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\obj\Debug\net9.0\MiniVent.BD26D606.Up2Date
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\obj\Debug\net9.0\MiniVentas.Infrastructure.dll
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\obj\Debug\net9.0\refint\MiniVentas.Infrastructure.dll
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\obj\Debug\net9.0\MiniVentas.Infrastructure.pdb
+E:\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\obj\Debug\net9.0\ref\MiniVentas.Infrastructure.dll
