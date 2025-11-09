@@ -136,3 +136,12 @@ MNI_VENTAS.sln
     │
     ├── appsettings.json
     └── Program.cs
+
+
+
+| Capa               | Qué hace                                                  | Qué depende de              |
+| ------------------ | --------------------------------------------------------- | --------------------------- |
+| **Domain**         | Define entidades, modelos y contratos.                    | Nadie                       |
+| **Infrastructure** | Implementa los contratos usando Dapper.                   | Domain                      |
+| **Application**    | Orquesta la lógica CQRS, usa repositorios y mapea a DTOs. | Domain                      |
+| **API**            | Expone endpoints que llaman a Application.                | Application, Infrastructure |

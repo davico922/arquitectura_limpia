@@ -24,6 +24,8 @@ public static  class DependencyInjection
 
         services.AddScoped<IProductoRepository,ProductoRepository>();
 
+        services.AddScoped<ILogRepository,LogRepository>();
+
         return services;
     }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OIw+nm0W0QE=",
+  "dgSpecHash": "If+7TkLyn0Y=",
   "success": true,
-  "projectFilePath": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\MiniVentas.Application.csproj",
+  "projectFilePath": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\MiniVentas.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\davic\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\davic\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -12,6 +12,7 @@
     "C:\\Users\\davic\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\davic\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\davic\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\davic\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
     "C:\\Users\\davic\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []

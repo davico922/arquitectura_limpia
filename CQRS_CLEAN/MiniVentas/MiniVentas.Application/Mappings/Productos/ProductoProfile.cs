@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using MiniVentas.Application.DTOs.Productos.Request;
 using MiniVentas.Application.DTOs.Productos.Response;
 using MiniVentas.Domain.Models.Productos;
 using System;
@@ -23,7 +24,7 @@ public class ProductoProfile :Profile
 
         //registrar
 
-       // CreateMap<RegistrarProductoRequestDTO, Producto>().ReverseMap();
+        CreateMap<MantenimientoProducto,MantenimientoProductoRequestDto>().ReverseMap();
     }
 
 }

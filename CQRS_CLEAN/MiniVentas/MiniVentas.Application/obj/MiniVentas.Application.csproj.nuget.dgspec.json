@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\MiniVentas.Application.csproj": {}
+    "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\MiniVentas.Application.csproj": {}
   },
   "projects": {
-    "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\MiniVentas.Application.csproj": {
+    "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\MiniVentas.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\MiniVentas.Application.csproj",
+        "projectUniqueName": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\MiniVentas.Application.csproj",
         "projectName": "MiniVentas.Application",
-        "projectPath": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\MiniVentas.Application.csproj",
+        "projectPath": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\MiniVentas.Application.csproj",
         "packagesPath": "C:\\Users\\davic\\.nuget\\packages\\",
-        "outputPath": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\obj\\",
+        "outputPath": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\MiniVentas.Domain.csproj": {
-                "projectPath": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\MiniVentas.Domain.csproj"
+              "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\MiniVentas.Domain.csproj": {
+                "projectPath": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\MiniVentas.Domain.csproj"
               }
             }
           }
@@ -65,6 +65,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
             }
           },
           "imports": [
@@ -87,14 +91,14 @@
         }
       }
     },
-    "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\MiniVentas.Domain.csproj": {
+    "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\MiniVentas.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\MiniVentas.Domain.csproj",
+        "projectUniqueName": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\MiniVentas.Domain.csproj",
         "projectName": "MiniVentas.Domain",
-        "projectPath": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\MiniVentas.Domain.csproj",
+        "projectPath": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\MiniVentas.Domain.csproj",
         "packagesPath": "C:\\Users\\davic\\.nuget\\packages\\",
-        "outputPath": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\obj\\",
+        "outputPath": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

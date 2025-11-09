@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pio/H9xWLdc=",
+  "dgSpecHash": "8NPxBK0rLI4=",
   "success": true,
-  "projectFilePath": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\MiniVentas.Domain.csproj",
+  "projectFilePath": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\MiniVentas.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,77 +1,117 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\CQRS_CLEAN\\MiniVentas\\",
+  "WorkspaceRootPath": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|e:\\cqrs_clean\\miniventas\\miniventas.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|solutionrelative:miniventas.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|e:\\cqrs_clean\\miniventas\\miniventas.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|solutionrelative:miniventas.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.api\\helpers\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|solutionrelative:miniventas.api\\helpers\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|e:\\cqrs_clean\\miniventas\\miniventas.application\\features\\productos\\queries\\getallproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|solutionrelative:miniventas.application\\features\\productos\\queries\\getallproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.api\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|solutionrelative:miniventas.api\\middleware\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|e:\\cqrs_clean\\miniventas\\miniventas.application\\mappings\\productos\\productoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|solutionrelative:miniventas.application\\mappings\\productos\\productoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|e:\\cqrs_clean\\miniventas\\miniventas.domain\\models\\productos\\listadoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|solutionrelative:miniventas.domain\\models\\productos\\listadoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|e:\\cqrs_clean\\miniventas\\miniventas.domain\\models\\productos\\mantenimientoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|solutionrelative:miniventas.domain\\models\\productos\\mantenimientoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|e:\\cqrs_clean\\miniventas\\miniventas.domain\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.domain\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|solutionrelative:miniventas.domain\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|e:\\cqrs_clean\\miniventas\\miniventas.application\\dtos\\productos\\response\\listadoproductoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|solutionrelative:miniventas.application\\dtos\\productos\\response\\listadoproductoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.application\\features\\productos\\commands\\createproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|solutionrelative:miniventas.application\\features\\productos\\commands\\createproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|e:\\cqrs_clean\\miniventas\\miniventas.application\\miniventas.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|solutionrelative:miniventas.application\\miniventas.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37B35718-FBDD-41BF-91A7-DE5B0DB43DD6}|MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj|e:\\cqrs_clean\\miniventas\\miniventas.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B35718-FBDD-41BF-91A7-DE5B0DB43DD6}|MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj|solutionrelative:miniventas.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37B35718-FBDD-41BF-91A7-DE5B0DB43DD6}|MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj|e:\\cqrs_clean\\miniventas\\miniventas.infrastructure\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B35718-FBDD-41BF-91A7-DE5B0DB43DD6}|MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj|solutionrelative:miniventas.infrastructure\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37B35718-FBDD-41BF-91A7-DE5B0DB43DD6}|MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj|e:\\cqrs_clean\\miniventas\\miniventas.infrastructure\\context\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37B35718-FBDD-41BF-91A7-DE5B0DB43DD6}|MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj|solutionrelative:miniventas.infrastructure\\context\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|e:\\cqrs_clean\\miniventas\\miniventas.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|solutionrelative:miniventas.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|e:\\cqrs_clean\\miniventas\\miniventas.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|solutionrelative:miniventas.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|e:\\cqrs_clean\\miniventas\\miniventas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|solutionrelative:miniventas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|e:\\cqrs_clean\\miniventas\\miniventas.domain\\entities\\util\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|solutionrelative:miniventas.domain\\entities\\util\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37B35718-FBDD-41BF-91A7-DE5B0DB43DD6}|MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.infrastructure\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B35718-FBDD-41BF-91A7-DE5B0DB43DD6}|MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj|solutionrelative:miniventas.infrastructure\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|e:\\cqrs_clean\\miniventas\\miniventas.application\\dtos\\productos\\request\\mantenimientoproductorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.domain\\interfaces\\ilogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|solutionrelative:miniventas.domain\\interfaces\\ilogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.domain\\entities\\tb_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|solutionrelative:miniventas.domain\\entities\\tb_ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.application\\mappings\\productos\\productoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|solutionrelative:miniventas.application\\mappings\\productos\\productoprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.api\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|solutionrelative:miniventas.api\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37B35718-FBDD-41BF-91A7-DE5B0DB43DD6}|MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.infrastructure\\context\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B35718-FBDD-41BF-91A7-DE5B0DB43DD6}|MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj|solutionrelative:miniventas.infrastructure\\context\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.application\\dtos\\logs\\request\\createlogstransaccionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|solutionrelative:miniventas.application\\dtos\\logs\\request\\createlogstransaccionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.domain\\entities\\logs\\logtransaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|solutionrelative:miniventas.domain\\entities\\logs\\logtransaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37B35718-FBDD-41BF-91A7-DE5B0DB43DD6}|MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.infrastructure\\repositories\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B35718-FBDD-41BF-91A7-DE5B0DB43DD6}|MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj|solutionrelative:miniventas.infrastructure\\repositories\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.application\\mappings\\logs\\logprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|solutionrelative:miniventas.application\\mappings\\logs\\logprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|solutionrelative:miniventas.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37B35718-FBDD-41BF-91A7-DE5B0DB43DD6}|MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B35718-FBDD-41BF-91A7-DE5B0DB43DD6}|MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj|solutionrelative:miniventas.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.domain\\models\\productos\\listadoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|solutionrelative:miniventas.domain\\models\\productos\\listadoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.application\\dtos\\productos\\request\\mantenimientoproductorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|solutionrelative:miniventas.application\\dtos\\productos\\request\\mantenimientoproductorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37B35718-FBDD-41BF-91A7-DE5B0DB43DD6}|MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj|e:\\cqrs_clean\\miniventas\\miniventas.infrastructure\\miniventas.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.domain\\entities\\util\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|solutionrelative:miniventas.domain\\entities\\util\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.application\\features\\productos\\queries\\getallproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|solutionrelative:miniventas.application\\features\\productos\\queries\\getallproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.domain\\models\\productos\\mantenimientoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DA191E2-7887-4856-97A7-8F27AC9A5AFB}|MiniVentas.Domain\\MiniVentas.Domain.csproj|solutionrelative:miniventas.domain\\models\\productos\\mantenimientoproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.application\\dtos\\productos\\response\\listadoproductoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|solutionrelative:miniventas.application\\dtos\\productos\\response\\listadoproductoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.application\\miniventas.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{15B7A514-DEA3-468F-8EDF-4BCB69759B2D}|MiniVentas.Application\\MiniVentas.Application.csproj|solutionrelative:miniventas.application\\miniventas.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|solutionrelative:miniventas.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D5AD64F-029B-49E5-8EB5-39B002FA18BE}|MiniVentas.API\\MiniVentas.API.csproj|solutionrelative:miniventas.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37B35718-FBDD-41BF-91A7-DE5B0DB43DD6}|MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj|e:\\repositorionet\\apis_mini_ventas_clean\\arquitectura_limpia\\cqrs_clean\\miniventas\\miniventas.infrastructure\\miniventas.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{37B35718-FBDD-41BF-91A7-DE5B0DB43DD6}|MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj|solutionrelative:miniventas.infrastructure\\miniventas.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -82,15 +122,223 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ValidationHelper.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\Helpers\\ValidationHelper.cs",
+              "RelativeDocumentMoniker": "MiniVentas.API\\Helpers\\ValidationHelper.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\Helpers\\ValidationHelper.cs",
+              "RelativeToolTip": "MiniVentas.API\\Helpers\\ValidationHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T01:24:11.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TB_VENTAS.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Entities\\TB_VENTAS.cs",
+              "RelativeDocumentMoniker": "MiniVentas.Domain\\Entities\\TB_VENTAS.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Entities\\TB_VENTAS.cs",
+              "RelativeToolTip": "MiniVentas.Domain\\Entities\\TB_VENTAS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T22:58:06.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "nlog.config",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\nlog.config",
+              "RelativeDocumentMoniker": "MiniVentas.API\\nlog.config",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\nlog.config",
+              "RelativeToolTip": "MiniVentas.API\\nlog.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-08T21:24:00.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "MiniVentas.API\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\Middleware\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "MiniVentas.API\\Middleware\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T20:53:57.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\Program.cs",
+              "RelativeDocumentMoniker": "MiniVentas.API\\Program.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\Program.cs",
+              "RelativeToolTip": "MiniVentas.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAACBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T04:10:10.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateProduct.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\Features\\Productos\\Commands\\CreateProduct.cs",
+              "RelativeDocumentMoniker": "MiniVentas.Application\\Features\\Productos\\Commands\\CreateProduct.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\Features\\Productos\\Commands\\CreateProduct.cs",
+              "RelativeToolTip": "MiniVentas.Application\\Features\\Productos\\Commands\\CreateProduct.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T18:30:03.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILogRepository.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Interfaces\\ILogRepository.cs",
+              "RelativeDocumentMoniker": "MiniVentas.Domain\\Interfaces\\ILogRepository.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Interfaces\\ILogRepository.cs",
+              "RelativeToolTip": "MiniVentas.Domain\\Interfaces\\ILogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T22:45:44.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LogRepository.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Infrastructure\\Repositories\\LogRepository.cs",
+              "RelativeDocumentMoniker": "MiniVentas.Infrastructure\\Repositories\\LogRepository.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Infrastructure\\Repositories\\LogRepository.cs",
+              "RelativeToolTip": "MiniVentas.Infrastructure\\Repositories\\LogRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T22:40:49.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "MiniVentas.API\\Controllers\\ProductosController.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "MiniVentas.API\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T04:57:30.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductoRepository.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Interfaces\\IProductoRepository.cs",
+              "RelativeDocumentMoniker": "MiniVentas.Domain\\Interfaces\\IProductoRepository.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Interfaces\\IProductoRepository.cs",
+              "RelativeToolTip": "MiniVentas.Domain\\Interfaces\\IProductoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T03:25:02.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Infrastructure\\Repositories\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "MiniVentas.Infrastructure\\Repositories\\ProductoRepository.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Infrastructure\\Repositories\\ProductoRepository.cs",
+              "RelativeToolTip": "MiniVentas.Infrastructure\\Repositories\\ProductoRepository.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAtwDAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T03:23:09.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductoProfile.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\Mappings\\Productos\\ProductoProfile.cs",
+              "RelativeDocumentMoniker": "MiniVentas.Application\\Mappings\\Productos\\ProductoProfile.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\Mappings\\Productos\\ProductoProfile.cs",
+              "RelativeToolTip": "MiniVentas.Application\\Mappings\\Productos\\ProductoProfile.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T05:32:04.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DapperContext.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Infrastructure\\Context\\DapperContext.cs",
+              "RelativeDocumentMoniker": "MiniVentas.Infrastructure\\Context\\DapperContext.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Infrastructure\\Context\\DapperContext.cs",
+              "RelativeToolTip": "MiniVentas.Infrastructure\\Context\\DapperContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T03:16:19.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateLogsTransaccionRequestDto.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\DTOs\\Logs\\Request\\CreateLogsTransaccionRequestDto.cs",
+              "RelativeDocumentMoniker": "MiniVentas.Application\\DTOs\\Logs\\Request\\CreateLogsTransaccionRequestDto.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\DTOs\\Logs\\Request\\CreateLogsTransaccionRequestDto.cs",
+              "RelativeToolTip": "MiniVentas.Application\\DTOs\\Logs\\Request\\CreateLogsTransaccionRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T22:53:39.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LogTransaccion.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Entities\\Logs\\LogTransaccion.cs",
+              "RelativeDocumentMoniker": "MiniVentas.Domain\\Entities\\Logs\\LogTransaccion.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Entities\\Logs\\LogTransaccion.cs",
+              "RelativeToolTip": "MiniVentas.Domain\\Entities\\Logs\\LogTransaccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T22:43:07.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LogProfiles.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\Mappings\\Logs\\LogProfiles.cs",
+              "RelativeDocumentMoniker": "MiniVentas.Application\\Mappings\\Logs\\LogProfiles.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\Mappings\\Logs\\LogProfiles.cs",
+              "RelativeToolTip": "MiniVentas.Application\\Mappings\\Logs\\LogProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T22:54:19.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\DependencyInjection.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "MiniVentas.Application\\DependencyInjection.cs",
-              "ToolTip": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\DependencyInjection.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\DependencyInjection.cs",
               "RelativeToolTip": "MiniVentas.Application\\DependencyInjection.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwBEAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -99,90 +347,90 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductoProfile.cs",
-              "DocumentMoniker": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\Mappings\\Productos\\ProductoProfile.cs",
-              "RelativeDocumentMoniker": "MiniVentas.Application\\Mappings\\Productos\\ProductoProfile.cs",
-              "ToolTip": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\Mappings\\Productos\\ProductoProfile.cs",
-              "RelativeToolTip": "MiniVentas.Application\\Mappings\\Productos\\ProductoProfile.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "MiniVentas.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "MiniVentas.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T05:32:04.641Z",
+              "WhenOpened": "2025-11-08T03:11:48.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetAllProducts.cs",
-              "DocumentMoniker": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\Features\\Productos\\Queries\\GetAllProducts.cs",
-              "RelativeDocumentMoniker": "MiniVentas.Application\\Features\\Productos\\Queries\\GetAllProducts.cs",
-              "ToolTip": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\Features\\Productos\\Queries\\GetAllProducts.cs",
-              "RelativeToolTip": "MiniVentas.Application\\Features\\Productos\\Queries\\GetAllProducts.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAowBYAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T04:37:04.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductosController.cs",
-              "DocumentMoniker": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\Controllers\\ProductosController.cs",
-              "RelativeDocumentMoniker": "MiniVentas.API\\Controllers\\ProductosController.cs",
-              "ToolTip": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\Controllers\\ProductosController.cs",
-              "RelativeToolTip": "MiniVentas.API\\Controllers\\ProductosController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T04:57:30.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 18,
               "Title": "ListadoProducto.cs",
-              "DocumentMoniker": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Models\\Productos\\ListadoProducto.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Models\\Productos\\ListadoProducto.cs",
               "RelativeDocumentMoniker": "MiniVentas.Domain\\Models\\Productos\\ListadoProducto.cs",
-              "ToolTip": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Models\\Productos\\ListadoProducto.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Models\\Productos\\ListadoProducto.cs",
               "RelativeToolTip": "MiniVentas.Domain\\Models\\Productos\\ListadoProducto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T03:50:23.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
+              "Title": "MantenimientoProductoRequestDto.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\DTOs\\Productos\\Request\\MantenimientoProductoRequestDto.cs",
+              "RelativeDocumentMoniker": "MiniVentas.Application\\DTOs\\Productos\\Request\\MantenimientoProductoRequestDto.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\DTOs\\Productos\\Request\\MantenimientoProductoRequestDto.cs",
+              "RelativeToolTip": "MiniVentas.Application\\DTOs\\Productos\\Request\\MantenimientoProductoRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T03:35:42.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Entities\\Util\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "MiniVentas.Domain\\Entities\\Util\\ApiResponse.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Entities\\Util\\ApiResponse.cs",
+              "RelativeToolTip": "MiniVentas.Domain\\Entities\\Util\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T05:01:06.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetAllProducts.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\Features\\Productos\\Queries\\GetAllProducts.cs",
+              "RelativeDocumentMoniker": "MiniVentas.Application\\Features\\Productos\\Queries\\GetAllProducts.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\Features\\Productos\\Queries\\GetAllProducts.cs",
+              "RelativeToolTip": "MiniVentas.Application\\Features\\Productos\\Queries\\GetAllProducts.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T04:37:04.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "MantenimientoProducto.cs",
-              "DocumentMoniker": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Models\\Productos\\MantenimientoProducto.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Models\\Productos\\MantenimientoProducto.cs",
               "RelativeDocumentMoniker": "MiniVentas.Domain\\Models\\Productos\\MantenimientoProducto.cs",
-              "ToolTip": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Models\\Productos\\MantenimientoProducto.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Models\\Productos\\MantenimientoProducto.cs",
               "RelativeToolTip": "MiniVentas.Domain\\Models\\Productos\\MantenimientoProducto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T03:49:51.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IProductoRepository.cs",
-              "DocumentMoniker": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Interfaces\\IProductoRepository.cs",
-              "RelativeDocumentMoniker": "MiniVentas.Domain\\Interfaces\\IProductoRepository.cs",
-              "ToolTip": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Interfaces\\IProductoRepository.cs",
-              "RelativeToolTip": "MiniVentas.Domain\\Interfaces\\IProductoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T03:25:02.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ListadoProductoResponseDTO.cs",
-              "DocumentMoniker": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\DTOs\\Productos\\Response\\ListadoProductoResponseDTO.cs",
-              "RelativeDocumentMoniker": "MiniVentas.Application\\DTOs\\Productos\\Response\\ListadoProductoResponseDTO.cs",
-              "ToolTip": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\DTOs\\Productos\\Response\\ListadoProductoResponseDTO.cs",
-              "RelativeToolTip": "MiniVentas.Application\\DTOs\\Productos\\Response\\ListadoProductoResponseDTO.cs",
+              "DocumentIndex": 23,
+              "Title": "ListadoProductoResponseDto.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\DTOs\\Productos\\Response\\ListadoProductoResponseDto.cs",
+              "RelativeDocumentMoniker": "MiniVentas.Application\\DTOs\\Productos\\Response\\ListadoProductoResponseDto.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\DTOs\\Productos\\Response\\ListadoProductoResponseDto.cs",
+              "RelativeToolTip": "MiniVentas.Application\\DTOs\\Productos\\Response\\ListadoProductoResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-08T03:36:29.313Z",
@@ -190,76 +438,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MiniVentas.Application",
-              "DocumentMoniker": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\MiniVentas.Application.csproj",
+              "DocumentIndex": 24,
+              "Title": "MiniVentas.Application.csproj",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\MiniVentas.Application.csproj",
               "RelativeDocumentMoniker": "MiniVentas.Application\\MiniVentas.Application.csproj",
-              "ToolTip": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\MiniVentas.Application.csproj",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\MiniVentas.Application.csproj",
               "RelativeToolTip": "MiniVentas.Application\\MiniVentas.Application.csproj",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-11-08T05:27:45.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "MiniVentas.Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "MiniVentas.Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBgAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T03:11:48.017Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductoRepository.cs",
-              "DocumentMoniker": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Infrastructure\\Repositories\\ProductoRepository.cs",
-              "RelativeDocumentMoniker": "MiniVentas.Infrastructure\\Repositories\\ProductoRepository.cs",
-              "ToolTip": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Infrastructure\\Repositories\\ProductoRepository.cs",
-              "RelativeToolTip": "MiniVentas.Infrastructure\\Repositories\\ProductoRepository.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAWwA8AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T03:23:09.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DapperContext.cs",
-              "DocumentMoniker": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Infrastructure\\Context\\DapperContext.cs",
-              "RelativeDocumentMoniker": "MiniVentas.Infrastructure\\Context\\DapperContext.cs",
-              "ToolTip": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Infrastructure\\Context\\DapperContext.cs",
-              "RelativeToolTip": "MiniVentas.Infrastructure\\Context\\DapperContext.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAjwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T03:16:19.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\Program.cs",
-              "RelativeDocumentMoniker": "MiniVentas.API\\Program.cs",
-              "ToolTip": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\Program.cs",
-              "RelativeToolTip": "MiniVentas.API\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAuwBcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T04:10:10.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
               "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\appsettings.json",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\appsettings.json",
               "RelativeDocumentMoniker": "MiniVentas.API\\appsettings.json",
-              "ToolTip": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\appsettings.json",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\appsettings.json",
               "RelativeToolTip": "MiniVentas.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -268,11 +464,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "MiniVentas.API\\Controllers\\AuthController.cs",
-              "ToolTip": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "MiniVentas.API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -281,37 +477,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Entities\\Util\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "MiniVentas.Domain\\Entities\\Util\\ApiResponse.cs",
-              "ToolTip": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Domain\\Entities\\Util\\ApiResponse.cs",
-              "RelativeToolTip": "MiniVentas.Domain\\Entities\\Util\\ApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T05:01:06.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MantenimientoProductoRequestDto.cs",
-              "DocumentMoniker": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\DTOs\\Productos\\Request\\MantenimientoProductoRequestDto.cs",
-              "RelativeDocumentMoniker": "MiniVentas.Application\\DTOs\\Productos\\Request\\MantenimientoProductoRequestDto.cs",
-              "ToolTip": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Application\\DTOs\\Productos\\Request\\MantenimientoProductoRequestDto.cs",
-              "RelativeToolTip": "MiniVentas.Application\\DTOs\\Productos\\Request\\MantenimientoProductoRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T03:35:42.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MiniVentas.Infrastructure",
-              "DocumentMoniker": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj",
+              "DocumentIndex": 27,
+              "Title": "MiniVentas.Infrastructure.csproj",
+              "DocumentMoniker": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj",
               "RelativeDocumentMoniker": "MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj",
-              "ToolTip": "E:\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj",
+              "ToolTip": "E:\\RepositorioNet\\APIS_MINI_VENTAS_CLEAN\\arquitectura_limpia\\CQRS_CLEAN\\MiniVentas\\MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj",
               "RelativeToolTip": "MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",

@@ -17,6 +17,32 @@
   },
   {
     "ContainingType": "MiniVentas.API.Controllers.ProductosController",
+    "Method": "CrearProducto",
+    "RelativePath": "api/Productos/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MiniVentas.Application.DTOs.Productos.Request.MantenimientoProductoRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MiniVentas.Domain.Entities.Util.ApiResponse\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MiniVentas.API.Controllers.ProductosController",
     "Method": "GetByID",
     "RelativePath": "api/Productos/GetProductByID/{Id_Producto}",
     "HttpMethod": "GET",

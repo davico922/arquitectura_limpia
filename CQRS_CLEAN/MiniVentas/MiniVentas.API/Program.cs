@@ -2,15 +2,27 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using MiniVentas.API.Middleware;
 using MiniVentas.Application;
 using MiniVentas.Infrastructure;
+using NLog.Web;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configurar NLog
+builder.Logging.ClearProviders();
+builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Information);
+builder.Host.UseNLog(); // <- Esto activa NLog
+
 // Add services to the container.
 
-builder.Services.AddControllers();
+//en esta injyeccion se quita la validacion por defecto que tiene el api  (desabilita validacion automatica del del apicontroller .
+builder.Services.AddControllers()
+    .ConfigureApiBehaviorOptions(options =>
+    {
+        options.SuppressModelStateInvalidFilter = true;
+    });
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
@@ -127,6 +139,9 @@ app.UseSwaggerUI(c =>
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+// Middleware global de errores
+app.UseMiddleware<ErrorHandlingMiddleware>();
 
 app.MapControllers();
 
