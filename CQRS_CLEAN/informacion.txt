@@ -145,3 +145,62 @@ MNI_VENTAS.sln
 | **Infrastructure** | Implementa los contratos usando Dapper.                   | Domain                      |
 | **Application**    | Orquesta la lógica CQRS, usa repositorios y mapea a DTOs. | Domain                      |
 | **API**            | Expone endpoints que llaman a Application.                | Application, Infrastructure |
+
+
+
+| Capa               | Responsabilidad principal                                           | Ejemplo                                                    |
+| ------------------ | ------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **API**            | Expone endpoints y maneja peticiones HTTP                           | `ProductosController`                                      |
+| **Application**    | Contiene la lógica de negocio (handlers, commands, queries)         | `CreateProductHandler`                                     |
+| **Domain**         | Define entidades y contratos (interfaces, DTOs, modelos de negocio) | `IProductoRepository`, `Producto`                          |
+
+| **Infrastructure** | Implementa persistencia, acceso a datos y servicios externos        | `ProductoRepository`, `FakeStoreApiProxy`, `DapperContext` |
+
+
+[ API ]
+   │
+   ├── AddApplication()  → usa casos de uso, DTOs, mediadores, validaciones.
+   │
+   └── AddInfrastructure() → registra Dapper, Repos, HttpClients, NLog, etc.
+
+[ Application ]
+   ├── Usa interfaces → IProductoRepository, IFakeStoreApiProxy
+   └── Contiene lógica de negocio (casos de uso)
+
+[ Domain ]
+   └── Define entidades y reglas del negocio
+
+[ Infrastructure ]
+   ├── Implementa interfaces de Domain o Application
+   └── Maneja datos: BD, APIs externas, logs, etc
+
+
+
+--ESUMEN ACTUALIZADO
+
+[ API ]
+   │
+   ├── AddApplication()   -> registra casos de uso (MediatR, DTOs, validaciones)
+   │
+   └── AddInfrastructure() -> registra implementaciones concretas (Dapper, HttpClients, repos, logging)
+
+
+[ Application ]
+   ├─ Define casos de uso (Handlers, Commands/Queries)
+   ├─ Define DTOs que usa la app
+   ├─ Define interfaces necesarias por la app:
+   │     • Interfaces de dominio (a veces en Domain) -> IProductoRepository (para BD propia)
+   │     • Interfaces de servicios externos -> IFakeStoreApiProxy (cuando la app necesita consumir terceros)
+   └─ No contiene implementaciones concretas
+
+
+[ Domain ]
+   └─ Entidades del negocio, reglas puras (a veces contiene interfaces de repositorio según la convención)
+
+[ Infrastructure ]
+   ├─ Implementa las interfaces definidas (en Domain o Application)
+   │     • ProductoRepository : IProductoRepository
+   │     • FakeStoreApiProxy : IFakeStoreApiProxy
+   ├─ Maneja acceso a datos (Dapper/EF), HttpClients, logs, etc.
+   └─ Expone método AddInfrastructure(configuration) para registrar todo en DI
+

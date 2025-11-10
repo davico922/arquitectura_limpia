@@ -17,4 +17,8 @@
     <ProjectReference Include="..\MiniVentas.Domain\MiniVentas.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="External\DTOs\FakeStoreProducto\GetProductoById\Request\" />
+  </ItemGroup>
+
 </Project>

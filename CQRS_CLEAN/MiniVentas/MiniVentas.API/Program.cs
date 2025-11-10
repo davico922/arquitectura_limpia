@@ -15,6 +15,8 @@ builder.Logging.ClearProviders();
 builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Information);
 builder.Host.UseNLog(); // <- Esto activa NLog
 
+
+
 // Add services to the container.
 
 //en esta injyeccion se quita la validacion por defecto que tiene el api  (desabilita validacion automatica del del apicontroller .
@@ -26,12 +28,15 @@ builder.Services.AddControllers()
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
+//capa aplicacion dependencias
 builder.Services.AddApplication();
 //builder.Services.AddInfrastructure(builder.Configuration);
+//capa infraestr dependencias
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddEndpointsApiExplorer();
 
 
+// swagger 
 
 builder.Services.AddSwaggerGen(options =>
 {
@@ -105,6 +110,7 @@ builder.Services.AddAuthentication(options =>
 
     });
 
+//cors
 
 builder.Services.AddCors(options =>
 {

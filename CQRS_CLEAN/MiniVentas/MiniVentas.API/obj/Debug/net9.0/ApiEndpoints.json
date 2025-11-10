@@ -16,6 +16,58 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "MiniVentas.API.Controllers.ExternalController",
+    "Method": "GetProductoById",
+    "RelativePath": "api/External/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MiniVentas.Domain.Entities.Util.ApiResponse\u00601[[MiniVentas.Application.External.DTOs.FakeStoreProducto.GetProductoById.Response.FakeStoreProductByIdResponseDto, MiniVentas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MiniVentas.API.Controllers.ExternalController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/External/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MiniVentas.Application.External.DTOs.FakeStoreProducto.CreateProducto.Response.FakeStoreCreateProductoRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MiniVentas.Domain.Entities.Util.ApiResponse\u00601[[MiniVentas.Application.External.DTOs.FakeStoreProducto.CreateProducto.Request.FakeStoreCreateProductoResponseDto, MiniVentas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "MiniVentas.API.Controllers.ProductosController",
     "Method": "CrearProducto",
     "RelativePath": "api/Productos/Create",

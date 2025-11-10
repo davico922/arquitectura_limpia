@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using MiniVentas.Application.External.Settings.FakeStoreProducto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,12 @@ namespace MiniVentas.Application
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
             //services.AddAutoMapper(Assembly.GetExecutingAssembly());
+
+            
+
+
+                
+                
 
             return services;
         }

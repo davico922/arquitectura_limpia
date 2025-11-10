@@ -44,7 +44,7 @@ public record CreateProductCommandHandler : IRequestHandler<CreateProductCommand
 
         try
         {
-            
+            //mapeamos el objeto para enviarlo con su request dto
             var producto = _mapper.Map<MantenimientoProducto>(request.Producto);
 
           

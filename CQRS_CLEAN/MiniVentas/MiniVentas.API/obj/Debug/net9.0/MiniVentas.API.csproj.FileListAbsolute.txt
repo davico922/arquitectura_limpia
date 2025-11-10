@@ -196,3 +196,11 @@ E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVent
 E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API\bin\Debug\net9.0\NLog.Extensions.Logging.dll
 E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API\bin\Debug\net9.0\NLog.Web.AspNetCore.dll
 E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API\bin\Debug\net9.0\Newtonsoft.Json.dll
+E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
+E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.dll
+E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API\bin\Debug\net9.0\Microsoft.Extensions.Http.dll
+E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API\bin\Debug\net9.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
