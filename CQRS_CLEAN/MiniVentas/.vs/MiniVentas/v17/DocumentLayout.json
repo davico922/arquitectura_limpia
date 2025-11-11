@@ -166,8 +166,7 @@
               "RelativeToolTip": "MiniVentas.Application\\External\\Interfaces\\FakeStoreProducto\\IFakeStoreProducto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T01:00:23.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T01:00:23.524Z"
             },
             {
               "$type": "Document",
@@ -179,8 +178,7 @@
               "RelativeToolTip": "MiniVentas.API\\Controllers\\ExternalController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAowD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T00:31:20.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T00:31:20.298Z"
             },
             {
               "$type": "Document",
@@ -192,8 +190,7 @@
               "RelativeToolTip": "MiniVentas.API\\Controllers\\ProductosController.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAowD8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T04:57:30.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T04:57:30.943Z"
             },
             {
               "$type": "Document",
@@ -205,8 +202,7 @@
               "RelativeToolTip": "MiniVentas.Application\\External\\Settings\\FakeStoreProducto\\FakeStoreApiSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T00:44:51.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T00:44:51.801Z"
             },
             {
               "$type": "Document",
@@ -218,8 +214,7 @@
               "RelativeToolTip": "MiniVentas.Application\\External\\DTOs\\FakeStoreProducto\\GetProductoById\\Response\\FakeStoreProductByIdResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T00:27:00.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T00:27:00.524Z"
             },
             {
               "$type": "Document",
@@ -244,8 +239,7 @@
               "RelativeToolTip": "MiniVentas.Application\\External\\DTOs\\FakeStoreProducto\\CreateProducto\\Request\\FakeStoreCreateProductoResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T03:37:47.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T03:37:47.738Z"
             },
             {
               "$type": "Document",
@@ -257,8 +251,7 @@
               "RelativeToolTip": "MiniVentas.Application\\External\\DTOs\\FakeStoreProducto\\CreateProducto\\Response\\FakeStoreCreateProductoRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T03:38:06.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T03:38:06.475Z"
             },
             {
               "$type": "Document",
@@ -270,8 +263,7 @@
               "RelativeToolTip": "MiniVentas.Infrastructure\\ExternalServices\\FakeStoreProducto\\FakeStoreProductoRepositoryProxy.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAQwCwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T00:16:56.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T00:16:56.836Z"
             },
             {
               "$type": "Document",
@@ -283,8 +275,7 @@
               "RelativeToolTip": "MiniVentas.Infrastructure\\DependencyInjection.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T03:11:48.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T03:11:48.017Z"
             },
             {
               "$type": "Document",
@@ -296,8 +287,7 @@
               "RelativeToolTip": "MiniVentas.Infrastructure\\Repositories\\ProductoRepository.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAtwBgAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T03:23:09.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T03:23:09.422Z"
             },
             {
               "$type": "Document",
@@ -309,8 +299,7 @@
               "RelativeToolTip": "MiniVentas.API\\Program.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T04:10:10.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T04:10:10.719Z"
             },
             {
               "$type": "Document",
@@ -322,8 +311,7 @@
               "RelativeToolTip": "MiniVentas.Domain\\Interfaces\\IProductoRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T03:25:02.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T03:25:02.532Z"
             },
             {
               "$type": "Document",
@@ -335,8 +323,7 @@
               "RelativeToolTip": "MiniVentas.API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T05:18:10.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T05:18:10.201Z"
             },
             {
               "$type": "Document",
@@ -348,8 +335,7 @@
               "RelativeToolTip": "MiniVentas.Infrastructure\\Context\\DapperContext.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAowBEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T03:16:19.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T03:16:19.774Z"
             },
             {
               "$type": "Document",
@@ -361,8 +347,7 @@
               "RelativeToolTip": "MiniVentas.Infrastructure\\Repositories\\LogRepository.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T22:40:49.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T22:40:49.074Z"
             },
             {
               "$type": "Document",
@@ -374,8 +359,7 @@
               "RelativeToolTip": "MiniVentas.API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-10T03:09:59.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T03:09:59.038Z"
             },
             {
               "$type": "Document",
@@ -387,8 +371,7 @@
               "RelativeToolTip": "MiniVentas.Application\\DependencyInjection.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAqwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T03:04:20.694Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T03:04:20.694Z"
             },
             {
               "$type": "Document",
@@ -400,8 +383,7 @@
               "RelativeToolTip": "MiniVentas.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-08T03:21:30.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T03:21:30.34Z"
             },
             {
               "$type": "Document",
@@ -413,8 +395,7 @@
               "RelativeToolTip": "MiniVentas.Domain\\Entities\\Logs\\LogTransaccion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T22:43:07.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T22:43:07.526Z"
             },
             {
               "$type": "Document",
@@ -426,8 +407,7 @@
               "RelativeToolTip": "MiniVentas.Application\\DTOs\\Productos\\Request\\MantenimientoProductoRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T03:35:42.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T03:35:42.621Z"
             },
             {
               "$type": "Document",
@@ -439,8 +419,7 @@
               "RelativeToolTip": "MiniVentas.API\\Middleware\\ErrorHandlingMiddleware.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwCwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T20:53:57.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T20:53:57.229Z"
             },
             {
               "$type": "Document",
@@ -452,8 +431,7 @@
               "RelativeToolTip": "MiniVentas.API\\Helpers\\ValidationHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T01:24:11.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T01:24:11.428Z"
             },
             {
               "$type": "Document",
@@ -465,8 +443,7 @@
               "RelativeToolTip": "MiniVentas.Application\\Mappings\\Productos\\ProductoProfile.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAABoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T05:32:04.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T05:32:04.641Z"
             },
             {
               "$type": "Document",
@@ -478,8 +455,7 @@
               "RelativeToolTip": "MiniVentas.Application\\Mappings\\Logs\\LogProfiles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T22:54:19.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T22:54:19.286Z"
             },
             {
               "$type": "Document",
@@ -491,8 +467,7 @@
               "RelativeToolTip": "MiniVentas.Domain\\Models\\Productos\\MantenimientoProducto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T03:49:51.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T03:49:51.978Z"
             },
             {
               "$type": "Document",
@@ -504,8 +479,7 @@
               "RelativeToolTip": "MiniVentas.Domain\\Models\\Productos\\ListadoProducto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T03:50:23.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T03:50:23.278Z"
             },
             {
               "$type": "Document",
@@ -517,8 +491,7 @@
               "RelativeToolTip": "MiniVentas.API\\nlog.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-11-08T21:24:00.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T21:24:00.153Z"
             },
             {
               "$type": "Document",
@@ -530,8 +503,7 @@
               "RelativeToolTip": "MiniVentas.Domain\\Entities\\TB_VENTAS.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T22:58:06.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T22:58:06.516Z"
             },
             {
               "$type": "Document",
@@ -543,8 +515,7 @@
               "RelativeToolTip": "MiniVentas.Domain\\Interfaces\\ILogRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T22:45:44.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T22:45:44.601Z"
             },
             {
               "$type": "Document",
@@ -556,8 +527,7 @@
               "RelativeToolTip": "MiniVentas.Application\\DTOs\\Logs\\Request\\CreateLogsTransaccionRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T22:53:39.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T22:53:39.54Z"
             },
             {
               "$type": "Document",
@@ -569,8 +539,7 @@
               "RelativeToolTip": "MiniVentas.Domain\\Entities\\Util\\ApiResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T05:01:06.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T05:01:06.475Z"
             },
             {
               "$type": "Document",
@@ -582,8 +551,7 @@
               "RelativeToolTip": "MiniVentas.Application\\Features\\Productos\\Queries\\GetAllProducts.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAIBJwBYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T04:37:04.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T04:37:04.357Z"
             },
             {
               "$type": "Document",
@@ -595,8 +563,7 @@
               "RelativeToolTip": "MiniVentas.Application\\DTOs\\Productos\\Response\\ListadoProductoResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-08T03:36:29.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T03:36:29.313Z"
             },
             {
               "$type": "Document",
@@ -608,8 +575,7 @@
               "RelativeToolTip": "MiniVentas.Application\\MiniVentas.Application.csproj",
               "ViewState": "AgIAAAMAAAAAAAAAAADwvxQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-08T05:27:45.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T05:27:45.751Z"
             },
             {
               "$type": "Document",
@@ -621,8 +587,7 @@
               "RelativeToolTip": "MiniVentas.Infrastructure\\MiniVentas.Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-08T02:46:50.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T02:46:50.838Z"
             }
           ]
         }

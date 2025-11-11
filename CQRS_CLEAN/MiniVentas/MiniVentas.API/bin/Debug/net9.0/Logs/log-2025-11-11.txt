@@ -1,0 +1,926 @@
+2025-11-11 01:02:14.5755|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider|
+2025-11-11 01:02:14.7878|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting|
+2025-11-11 01:02:14.8694|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\davic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+2025-11-11 01:02:14.9144|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\davic\AppData\Local\ASP.NET\DataProtection-Keys\key-08258664-e500-4c2b-a3ee-746e5d86085e.xml'.|
+2025-11-11 01:02:14.9579|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\davic\AppData\Local\ASP.NET\DataProtection-Keys\key-ad266bea-abc6-4df1-9ab0-1eafd46102aa.xml'.|
+2025-11-11 01:02:14.9864|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {08258664-e500-4c2b-a3ee-746e5d86085e}.|
+2025-11-11 01:02:15.0003|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {ad266bea-abc6-4df1-9ab0-1eafd46102aa}.|
+2025-11-11 01:02:15.0146|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {08258664-e500-4c2b-a3ee-746e5d86085e} with expiration date 2026-02-04 02:09:42Z as default key.|
+2025-11-11 01:02:15.0146|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60|
+2025-11-11 01:02:15.0146|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.|
+2025-11-11 01:02:15.0146|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60|
+2025-11-11 01:02:15.0146|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.|
+2025-11-11 01:02:15.0305|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.|
+2025-11-11 01:02:15.0305|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {08258664-e500-4c2b-a3ee-746e5d86085e} as the default key.|
+2025-11-11 01:02:15.0305|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {08258664-e500-4c2b-a3ee-746e5d86085e} was loaded during application startup.|
+2025-11-11 01:02:15.0305|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BlazorWasmHotReloadMiddleware|Middleware loaded|
+2025-11-11 01:02:15.0458|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16513 B).|
+2025-11-11 01:02:15.0458|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).|
+2025-11-11 01:02:15.2591|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}|
+2025-11-11 01:02:15.2591|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.|
+2025-11-11 01:02:15.2705|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true|
+2025-11-11 01:02:15.2705|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly MiniVentas.API|
+2025-11-11 01:02:15.2705|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery|
+2025-11-11 01:02:15.2896|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh|
+2025-11-11 01:02:15.2896|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net|
+2025-11-11 01:02:15.3318|DEBUG|Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider|Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.|
+2025-11-11 01:02:15.3318|DEBUG|Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider|Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.|
+2025-11-11 01:02:15.3977|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44393/_framework/aspnetcore-browser-refresh.js - - -|
+2025-11-11 01:02:15.3977|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44393/_vs/browserLink - - -|
+2025-11-11 01:02:15.4854|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.|
+2025-11-11 01:02:15.4854|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development|
+2025-11-11 01:02:15.4854|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API|
+2025-11-11 01:02:15.4854|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started|
+2025-11-11 01:02:15.5010|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Script injected: /_framework/aspnetcore-browser-refresh.js|
+2025-11-11 01:02:15.5158|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44393/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript;+charset=utf-8 122.2840ms|
+2025-11-11 01:02:15.8112|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44393/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 431.5316ms|
+2025-11-11 01:02:15.8113|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18158513707758387201" disconnecting.|
+2025-11-11 01:02:16.1615|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44393/swagger/v1/swagger.json - - -|
+2025-11-11 01:02:16.1615|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.|
+2025-11-11 01:02:16.2124|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'|
+2025-11-11 01:02:16.2124|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints|
+2025-11-11 01:02:18.4711|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.|
+2025-11-11 01:02:19.1332|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686485577203713" disconnecting.|
+2025-11-11 01:02:19.1404|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44393/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 2978.9804ms|
+2025-11-11 01:02:49.5788|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:44393/api/Auth/login - application/json 49|
+2025-11-11 01:02:49.5788|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.|
+2025-11-11 01:02:49.5990|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Auth/login'|
+2025-11-11 01:02:49.5990|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'|
+2025-11-11 01:02:49.5990|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API)'|
+2025-11-11 01:02:49.5990|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.|
+2025-11-11 01:02:49.6672|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.|
+2025-11-11 01:02:49.6986|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:44393'.|
+2025-11-11 01:02:49.6986|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.|
+2025-11-11 01:02:49.7115|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API)'|
+2025-11-11 01:02:49.7841|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(MiniVentas.API.Controllers.LoginRequest) on controller MiniVentas.API.Controllers.AuthController (MiniVentas.API).|
+2025-11-11 01:02:49.7841|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None|
+2025-11-11 01:02:49.7841|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None|
+2025-11-11 01:02:49.7841|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)|
+2025-11-11 01:02:49.7841|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None|
+2025-11-11 01:02:49.7841|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)|
+2025-11-11 01:02:49.7841|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MiniVentas.API.Controllers.AuthController (MiniVentas.API)|
+2025-11-11 01:02:49.7841|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MiniVentas.API.Controllers.AuthController (MiniVentas.API)|
+2025-11-11 01:02:49.7996|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest' ...|
+2025-11-11 01:02:49.7996|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest' using the name '' in request data ...|
+2025-11-11 01:02:49.7996|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.|
+2025-11-11 01:02:49.8201|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'MiniVentas.API.Controllers.LoginRequest'|
+2025-11-11 01:02:49.8201|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest'.|
+2025-11-11 01:02:49.8201|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest'.|
+2025-11-11 01:02:49.8201|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest' ...|
+2025-11-11 01:02:49.8301|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest'.|
+2025-11-11 01:02:49.8301|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:02:49.8301|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:02:49.8433|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API) - Validation state: Valid|
+2025-11-11 01:02:49.8433|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API) with arguments (MiniVentas.API.Controllers.LoginRequest)|
+2025-11-11 01:02:49.9755|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 120.3519ms.|
+2025-11-11 01:02:49.9755|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:02:49.9755|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:02:49.9755|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:02:49.9755|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:02:49.9755|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.|
+2025-11-11 01:02:49.9755|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter|
+2025-11-11 01:02:49.9755|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.|
+2025-11-11 01:02:49.9755|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.|
+2025-11-11 01:02:49.9755|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.|
+2025-11-11 01:02:49.9834|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.|
+2025-11-11 01:02:49.9834|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], MiniVentas.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.|
+2025-11-11 01:02:49.9988|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.|
+2025-11-11 01:02:49.9988|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:02:49.9988|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:02:49.9988|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API) in 211.1354ms|
+2025-11-11 01:02:49.9988|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API)'|
+2025-11-11 01:02:49.9988|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686485577203715" disconnecting.|
+2025-11-11 01:02:49.9988|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:44393/api/Auth/login - 200 - application/json;+charset=utf-8 428.1682ms|
+2025-11-11 01:03:34.2362|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:44393/api/Casos/ListarCasos - application/json 74|
+2025-11-11 01:03:34.2362|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.|
+2025-11-11 01:03:34.2362|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Casos/ListarCasos'|
+2025-11-11 01:03:34.2362|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)' with route pattern 'api/Casos/ListarCasos' is valid for the request path '/api/Casos/ListarCasos'|
+2025-11-11 01:03:34.2362|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:03:34.2362|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.|
+2025-11-11 01:03:34.2967|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.|
+2025-11-11 01:03:34.2967|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.|
+2025-11-11 01:03:34.3238|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:44393'.|
+2025-11-11 01:03:34.3238|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.|
+2025-11-11 01:03:34.3328|DEBUG|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.|
+2025-11-11 01:03:34.3328|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:03:34.3328|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ListarCasos", controller = "Casos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MiniVentas.Domain.Entities.Util.ApiResponse`1[MiniVentas.Application.DTOs.Casos.Response.ListadoSolicitudesFilterResponseDto]]] ListarCasos(MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto) on controller MiniVentas.API.Controllers.CasosController (MiniVentas.API).|
+2025-11-11 01:03:34.3328|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None|
+2025-11-11 01:03:34.3328|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None|
+2025-11-11 01:03:34.3328|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)|
+2025-11-11 01:03:34.3328|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None|
+2025-11-11 01:03:34.3328|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)|
+2025-11-11 01:03:34.3328|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MiniVentas.API.Controllers.CasosController (MiniVentas.API)|
+2025-11-11 01:03:34.3328|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MiniVentas.API.Controllers.CasosController (MiniVentas.API)|
+2025-11-11 01:03:34.3328|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' ...|
+2025-11-11 01:03:34.3328|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' using the name '' in request data ...|
+2025-11-11 01:03:34.3328|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.|
+2025-11-11 01:03:34.3486|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter threw an exception: '"' is invalid after a value. Expected either ',', '}', or ']'. Path: $ | LineNumber: 3 | BytePositionInLine: 2.|
+2025-11-11 01:03:34.3486|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:03:34.3486|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:03:34.3486|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' ...|
+2025-11-11 01:03:34.3486|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:03:34.3486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:03:34.3486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:03:34.3486|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) - Validation state: Invalid|
+2025-11-11 01:03:34.3486|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) with arguments ()|
+2025-11-11 01:03:47.7664|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:03:47.7664|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:03:47.7664|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) in 13432.7449ms|
+2025-11-11 01:03:47.7664|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:03:52.5255|ERROR|MiniVentas.API.Middleware.ErrorHandlingMiddleware|Error HTTP 400 capturado por middleware global|System.ArgumentException: Los datos de entrada son inválidos: '"' is invalid after a value. Expected either ',', '}', or ']'. Path: $ | LineNumber: 3 | BytePositionInLine: 2.; The request field is required.
+   at MiniVentas.API.Helpers.ValidationHelper.ValidateModel(ModelStateDictionary modelState) in E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API\Helpers\ValidationHelper.cs:line 15
+   at MiniVentas.API.Controllers.CasosController.ListarCasos(ListadoSolicitudesFilterRequestDto request) in E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API\Controllers\CasosController.cs:line 30
+   at lambda_method9(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at MiniVentas.API.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API\Middleware\ErrorHandlingMiddleware.cs:line 28
+2025-11-11 01:03:52.5558|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18302628891539275777" disconnecting.|
+2025-11-11 01:03:52.5558|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:44393/api/Casos/ListarCasos - 400 - application/json;+charset=utf-8 18324.4089ms|
+2025-11-11 01:04:01.0916|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:44393/api/Casos/ListarCasos - application/json 75|
+2025-11-11 01:04:01.0949|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.|
+2025-11-11 01:04:01.0949|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Casos/ListarCasos'|
+2025-11-11 01:04:01.0949|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)' with route pattern 'api/Casos/ListarCasos' is valid for the request path '/api/Casos/ListarCasos'|
+2025-11-11 01:04:01.0949|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:04:01.0949|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.|
+2025-11-11 01:04:01.1283|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.|
+2025-11-11 01:04:01.1283|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.|
+2025-11-11 01:04:01.1283|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:44393'.|
+2025-11-11 01:04:01.1283|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.|
+2025-11-11 01:04:01.1283|DEBUG|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.|
+2025-11-11 01:04:01.1283|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:04:01.1283|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ListarCasos", controller = "Casos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MiniVentas.Domain.Entities.Util.ApiResponse`1[MiniVentas.Application.DTOs.Casos.Response.ListadoSolicitudesFilterResponseDto]]] ListarCasos(MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto) on controller MiniVentas.API.Controllers.CasosController (MiniVentas.API).|
+2025-11-11 01:04:01.1283|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None|
+2025-11-11 01:04:01.1283|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None|
+2025-11-11 01:04:01.1283|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)|
+2025-11-11 01:04:01.1283|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None|
+2025-11-11 01:04:01.1283|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)|
+2025-11-11 01:04:01.1283|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MiniVentas.API.Controllers.CasosController (MiniVentas.API)|
+2025-11-11 01:04:01.1283|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MiniVentas.API.Controllers.CasosController (MiniVentas.API)|
+2025-11-11 01:04:01.1283|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' ...|
+2025-11-11 01:04:01.1283|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' using the name '' in request data ...|
+2025-11-11 01:04:01.1283|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.|
+2025-11-11 01:04:01.1411|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'|
+2025-11-11 01:04:01.1411|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:04:01.1411|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:04:01.1411|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' ...|
+2025-11-11 01:04:01.1411|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:04:01.1411|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:04:01.1411|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:04:01.1411|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) - Validation state: Valid|
+2025-11-11 01:04:01.1411|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) with arguments (MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto)|
+2025-11-11 01:04:25.4559|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Start processing HTTP request POST https://apis.visivaedu.com/api-integration-360/v1/auth/|
+2025-11-11 01:04:25.4559|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Request Headers:
+Content-Type: *
+|
+2025-11-11 01:04:25.4559|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Sending HTTP request POST https://apis.visivaedu.com/api-integration-360/v1/auth/|
+2025-11-11 01:04:25.4559|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Request Headers:
+Content-Type: *
+|
+2025-11-11 01:04:26.1759|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Received HTTP response headers after 710.1526ms - 403|
+2025-11-11 01:04:26.1759|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Response Headers:
+Date: *
+Connection: *
+x-amzn-RequestId: *
+x-amzn-ErrorType: *
+x-amz-apigw-id: *
+Content-Type: *
+Content-Length: *
+|
+2025-11-11 01:04:26.1759|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|End processing HTTP request after 722.9637ms - 403|
+2025-11-11 01:04:26.1759|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Response Headers:
+Date: *
+Connection: *
+x-amzn-RequestId: *
+x-amzn-ErrorType: *
+x-amz-apigw-id: *
+Content-Type: *
+Content-Length: *
+|
+2025-11-11 01:05:00.8838|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:05:00.8838|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:05:00.8838|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) in 59752.8209ms|
+2025-11-11 01:05:00.8900|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:05:01.0351|ERROR|MiniVentas.API.Middleware.ErrorHandlingMiddleware|Error HTTP 500 capturado por middleware global|System.Net.Http.HttpRequestException: Response status code does not indicate success: 403 (Forbidden).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at MiniVentas.Infrastructure.ExternalServices.VisivaApi.VisivaApiRepository.ObtenerTokenAsync() in E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\ExternalServices\VisivaApi\VisivaApiRepository.cs:line 44
+   at MiniVentas.Application.Features.VisivaApis.Queries.GetCasosQueryHandler.Handle(GetCasosQuery request, CancellationToken cancellationToken) in E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.Application\Features\Casos\Queries\GetCasos.cs:line 37
+   at MiniVentas.API.Controllers.CasosController.ListarCasos(ListadoSolicitudesFilterRequestDto request) in E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API\Controllers\CasosController.cs:line 35
+   at lambda_method9(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at MiniVentas.API.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API\Middleware\ErrorHandlingMiddleware.cs:line 28
+2025-11-11 01:05:01.0699|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:44393/api/Casos/ListarCasos - 500 - application/json;+charset=utf-8 59978.3389ms|
+2025-11-11 01:05:14.6357|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:44393/api/Casos/ListarCasos - application/json 75|
+2025-11-11 01:05:14.6357|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Casos/ListarCasos'|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)' with route pattern 'api/Casos/ListarCasos' is valid for the request path '/api/Casos/ListarCasos'|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:05:14.6357|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:44393'.|
+2025-11-11 01:05:14.6357|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.|
+2025-11-11 01:05:14.6357|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:05:14.6357|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ListarCasos", controller = "Casos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MiniVentas.Domain.Entities.Util.ApiResponse`1[MiniVentas.Application.DTOs.Casos.Response.ListadoSolicitudesFilterResponseDto]]] ListarCasos(MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto) on controller MiniVentas.API.Controllers.CasosController (MiniVentas.API).|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MiniVentas.API.Controllers.CasosController (MiniVentas.API)|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MiniVentas.API.Controllers.CasosController (MiniVentas.API)|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' ...|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' using the name '' in request data ...|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' ...|
+2025-11-11 01:05:14.6357|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:05:14.6357|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:05:14.6357|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:05:14.6357|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) - Validation state: Valid|
+2025-11-11 01:05:14.6357|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) with arguments (MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto)|
+2025-11-11 01:09:34.3922|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider|
+2025-11-11 01:09:34.5229|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting|
+2025-11-11 01:09:34.5658|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\davic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+2025-11-11 01:09:34.5845|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\davic\AppData\Local\ASP.NET\DataProtection-Keys\key-08258664-e500-4c2b-a3ee-746e5d86085e.xml'.|
+2025-11-11 01:09:34.5845|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\davic\AppData\Local\ASP.NET\DataProtection-Keys\key-ad266bea-abc6-4df1-9ab0-1eafd46102aa.xml'.|
+2025-11-11 01:09:34.5994|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {08258664-e500-4c2b-a3ee-746e5d86085e}.|
+2025-11-11 01:09:34.5994|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {ad266bea-abc6-4df1-9ab0-1eafd46102aa}.|
+2025-11-11 01:09:34.6213|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {08258664-e500-4c2b-a3ee-746e5d86085e} with expiration date 2026-02-04 02:09:42Z as default key.|
+2025-11-11 01:09:34.6261|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60|
+2025-11-11 01:09:34.6261|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.|
+2025-11-11 01:09:34.6261|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60|
+2025-11-11 01:09:34.6261|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.|
+2025-11-11 01:09:34.6261|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.|
+2025-11-11 01:09:34.6261|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {08258664-e500-4c2b-a3ee-746e5d86085e} as the default key.|
+2025-11-11 01:09:34.6393|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {08258664-e500-4c2b-a3ee-746e5d86085e} was loaded during application startup.|
+2025-11-11 01:09:34.6393|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BlazorWasmHotReloadMiddleware|Middleware loaded|
+2025-11-11 01:09:34.6393|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16513 B).|
+2025-11-11 01:09:34.6393|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).|
+2025-11-11 01:09:34.8012|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}|
+2025-11-11 01:09:34.8012|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.|
+2025-11-11 01:09:34.8012|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true|
+2025-11-11 01:09:34.8401|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly MiniVentas.API|
+2025-11-11 01:09:34.8401|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery|
+2025-11-11 01:09:34.8401|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh|
+2025-11-11 01:09:34.8401|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net|
+2025-11-11 01:09:34.8772|DEBUG|Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider|Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.|
+2025-11-11 01:09:34.8772|DEBUG|Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider|Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.|
+2025-11-11 01:09:34.9087|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44393/_vs/browserLink - - -|
+2025-11-11 01:09:34.9087|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44393/_framework/aspnetcore-browser-refresh.js - - -|
+2025-11-11 01:09:34.9681|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Script injected: /_framework/aspnetcore-browser-refresh.js|
+2025-11-11 01:09:34.9681|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18302628891539275781" disconnecting.|
+2025-11-11 01:09:34.9861|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44393/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript;+charset=utf-8 79.5390ms|
+2025-11-11 01:09:35.0480|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.|
+2025-11-11 01:09:35.0480|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development|
+2025-11-11 01:09:35.0480|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API|
+2025-11-11 01:09:35.0480|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started|
+2025-11-11 01:09:35.0480|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18158513707758387205" disconnecting.|
+2025-11-11 01:09:35.0480|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44393/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 169.9238ms|
+2025-11-11 01:09:35.4107|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44393/swagger/v1/swagger.json - - -|
+2025-11-11 01:09:35.4107|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.|
+2025-11-11 01:09:35.4448|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'|
+2025-11-11 01:09:35.4448|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints|
+2025-11-11 01:09:35.5369|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.|
+2025-11-11 01:09:35.7676|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18158513707758387207" disconnecting.|
+2025-11-11 01:09:35.7676|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44393/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 358.6426ms|
+2025-11-11 01:09:49.3220|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:44393/api/Auth/login - application/json 49|
+2025-11-11 01:09:49.3220|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.|
+2025-11-11 01:09:49.3462|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Auth/login'|
+2025-11-11 01:09:49.3462|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'|
+2025-11-11 01:09:49.3462|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API)'|
+2025-11-11 01:09:49.3462|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.|
+2025-11-11 01:09:49.3462|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.|
+2025-11-11 01:09:49.3638|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:44393'.|
+2025-11-11 01:09:49.3638|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.|
+2025-11-11 01:09:49.3638|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API)'|
+2025-11-11 01:09:49.4019|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(MiniVentas.API.Controllers.LoginRequest) on controller MiniVentas.API.Controllers.AuthController (MiniVentas.API).|
+2025-11-11 01:09:49.4019|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None|
+2025-11-11 01:09:49.4019|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None|
+2025-11-11 01:09:49.4051|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)|
+2025-11-11 01:09:49.4051|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None|
+2025-11-11 01:09:49.4051|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)|
+2025-11-11 01:09:49.4051|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MiniVentas.API.Controllers.AuthController (MiniVentas.API)|
+2025-11-11 01:09:49.4051|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MiniVentas.API.Controllers.AuthController (MiniVentas.API)|
+2025-11-11 01:09:49.4210|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest' ...|
+2025-11-11 01:09:49.4210|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest' using the name '' in request data ...|
+2025-11-11 01:09:49.4210|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.|
+2025-11-11 01:09:49.4724|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'MiniVentas.API.Controllers.LoginRequest'|
+2025-11-11 01:09:49.4724|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest'.|
+2025-11-11 01:09:49.4724|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest'.|
+2025-11-11 01:09:49.4724|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest' ...|
+2025-11-11 01:09:49.4847|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest'.|
+2025-11-11 01:09:49.4847|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:09:49.4847|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:09:49.4996|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API) - Validation state: Valid|
+2025-11-11 01:09:49.4996|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API) with arguments (MiniVentas.API.Controllers.LoginRequest)|
+2025-11-11 01:09:49.5736|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 54.579ms.|
+2025-11-11 01:09:49.5736|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:09:49.5736|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:09:49.5736|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:09:49.5736|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:09:49.5736|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.|
+2025-11-11 01:09:49.5787|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter|
+2025-11-11 01:09:49.5787|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.|
+2025-11-11 01:09:49.5787|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.|
+2025-11-11 01:09:49.5787|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.|
+2025-11-11 01:09:49.5787|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.|
+2025-11-11 01:09:49.5787|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], MiniVentas.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.|
+2025-11-11 01:09:49.5989|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.|
+2025-11-11 01:09:49.5989|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:09:49.5989|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:09:49.5989|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API) in 193.5778ms|
+2025-11-11 01:09:49.6113|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API)'|
+2025-11-11 01:09:49.6113|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:44393/api/Auth/login - 200 - application/json;+charset=utf-8 289.7888ms|
+2025-11-11 01:10:28.2172|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:44393/api/Casos/ListarCasos - application/json 73|
+2025-11-11 01:10:28.2177|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.|
+2025-11-11 01:10:28.2177|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Casos/ListarCasos'|
+2025-11-11 01:10:28.2177|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)' with route pattern 'api/Casos/ListarCasos' is valid for the request path '/api/Casos/ListarCasos'|
+2025-11-11 01:10:28.2177|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:10:28.2177|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.|
+2025-11-11 01:10:28.2763|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.|
+2025-11-11 01:10:28.2763|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.|
+2025-11-11 01:10:28.2830|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:44393'.|
+2025-11-11 01:10:28.2830|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.|
+2025-11-11 01:10:28.2830|DEBUG|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.|
+2025-11-11 01:10:28.2830|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:10:28.3011|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ListarCasos", controller = "Casos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MiniVentas.Domain.Entities.Util.ApiResponse`1[MiniVentas.Application.DTOs.Casos.Response.ListadoSolicitudesFilterResponseDto]]] ListarCasos(MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto) on controller MiniVentas.API.Controllers.CasosController (MiniVentas.API).|
+2025-11-11 01:10:28.3011|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None|
+2025-11-11 01:10:28.3011|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None|
+2025-11-11 01:10:28.3011|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)|
+2025-11-11 01:10:28.3011|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None|
+2025-11-11 01:10:28.3011|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)|
+2025-11-11 01:10:28.3011|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MiniVentas.API.Controllers.CasosController (MiniVentas.API)|
+2025-11-11 01:10:28.3011|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MiniVentas.API.Controllers.CasosController (MiniVentas.API)|
+2025-11-11 01:10:28.3011|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' ...|
+2025-11-11 01:10:28.3011|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' using the name '' in request data ...|
+2025-11-11 01:10:28.3011|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.|
+2025-11-11 01:10:28.3011|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'|
+2025-11-11 01:10:28.3011|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:10:28.3011|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:10:28.3011|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' ...|
+2025-11-11 01:10:28.3011|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:10:28.3011|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:10:28.3011|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:10:28.3011|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) - Validation state: Valid|
+2025-11-11 01:10:28.3011|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) with arguments (MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto)|
+2025-11-11 01:10:37.8445|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Start processing HTTP request POST https://apis.visivaedu.com/api-integration-360/v1/auth/|
+2025-11-11 01:10:37.8445|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Request Headers:
+x-api-key: *
+Content-Type: *
+|
+2025-11-11 01:10:37.8445|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Sending HTTP request POST https://apis.visivaedu.com/api-integration-360/v1/auth/|
+2025-11-11 01:10:37.8445|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Request Headers:
+x-api-key: *
+Content-Type: *
+|
+2025-11-11 01:10:38.5833|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Received HTTP response headers after 727.7796ms - 200|
+2025-11-11 01:10:38.5833|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Response Headers:
+Date: *
+Connection: *
+x-amzn-RequestId: *
+x-amz-apigw-id: *
+X-Amzn-Trace-Id: *
+Content-Type: *
+Content-Length: *
+|
+2025-11-11 01:10:38.5833|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|End processing HTTP request after 742.5163ms - 200|
+2025-11-11 01:10:38.5833|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Response Headers:
+Date: *
+Connection: *
+x-amzn-RequestId: *
+x-amz-apigw-id: *
+X-Amzn-Trace-Id: *
+Content-Type: *
+Content-Length: *
+|
+2025-11-11 01:11:13.8878|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 45581.6281ms.|
+2025-11-11 01:11:13.8878|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:11:13.8878|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:11:13.8878|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:11:13.8878|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:11:13.8878|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.|
+2025-11-11 01:11:13.8894|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter|
+2025-11-11 01:11:13.8894|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'.|
+2025-11-11 01:11:13.8894|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain)|
+2025-11-11 01:11:13.8894|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.|
+2025-11-11 01:11:13.8894|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.|
+2025-11-11 01:11:13.8894|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.|
+2025-11-11 01:11:13.8894|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'MiniVentas.Domain.Entities.Util.ApiResponse`1[[MiniVentas.Application.DTOs.Casos.Response.ListadoSolicitudesFilterResponseDto, MiniVentas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.|
+2025-11-11 01:11:13.8894|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.|
+2025-11-11 01:11:13.8894|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:11:13.8894|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:11:13.8894|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) in 45599.6141ms|
+2025-11-11 01:11:13.8894|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:11:13.8894|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:44393/api/Casos/ListarCasos - 200 - application/json;+charset=utf-8 45688.6692ms|
+2025-11-11 01:11:38.3440|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:44393/api/Casos/ListarCasos - application/json 73|
+2025-11-11 01:11:38.3440|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.|
+2025-11-11 01:11:38.3440|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Casos/ListarCasos'|
+2025-11-11 01:11:38.3440|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)' with route pattern 'api/Casos/ListarCasos' is valid for the request path '/api/Casos/ListarCasos'|
+2025-11-11 01:11:38.3440|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:11:38.3440|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.|
+2025-11-11 01:11:38.3440|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.|
+2025-11-11 01:11:38.3440|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.|
+2025-11-11 01:11:38.3440|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:44393'.|
+2025-11-11 01:11:38.3440|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.|
+2025-11-11 01:11:38.3848|DEBUG|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.|
+2025-11-11 01:11:38.3848|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:11:38.3848|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ListarCasos", controller = "Casos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MiniVentas.Domain.Entities.Util.ApiResponse`1[MiniVentas.Application.DTOs.Casos.Response.ListadoSolicitudesFilterResponseDto]]] ListarCasos(MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto) on controller MiniVentas.API.Controllers.CasosController (MiniVentas.API).|
+2025-11-11 01:11:38.3848|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None|
+2025-11-11 01:11:38.3848|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None|
+2025-11-11 01:11:38.3848|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)|
+2025-11-11 01:11:38.3848|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None|
+2025-11-11 01:11:38.3848|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)|
+2025-11-11 01:11:38.3848|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MiniVentas.API.Controllers.CasosController (MiniVentas.API)|
+2025-11-11 01:11:38.3848|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MiniVentas.API.Controllers.CasosController (MiniVentas.API)|
+2025-11-11 01:11:38.4542|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' ...|
+2025-11-11 01:11:38.4542|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' using the name '' in request data ...|
+2025-11-11 01:11:38.4542|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.|
+2025-11-11 01:11:38.4542|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'|
+2025-11-11 01:11:38.4542|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:11:38.4542|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:11:38.4542|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' ...|
+2025-11-11 01:11:38.4542|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:11:38.4542|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:11:38.4542|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:11:38.4542|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) - Validation state: Valid|
+2025-11-11 01:11:38.4542|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) with arguments (MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto)|
+2025-11-11 01:11:49.0476|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Start processing HTTP request POST https://apis.visivaedu.com/api-integration-360/v1/auth/|
+2025-11-11 01:11:49.0476|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Request Headers:
+x-api-key: *
+Content-Type: *
+|
+2025-11-11 01:11:49.0476|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Sending HTTP request POST https://apis.visivaedu.com/api-integration-360/v1/auth/|
+2025-11-11 01:11:49.0476|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Request Headers:
+x-api-key: *
+Content-Type: *
+|
+2025-11-11 01:11:49.2108|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Received HTTP response headers after 162.912ms - 200|
+2025-11-11 01:11:49.2108|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Response Headers:
+Date: *
+Connection: *
+x-amzn-RequestId: *
+x-amz-apigw-id: *
+X-Amzn-Trace-Id: *
+Content-Type: *
+Content-Length: *
+|
+2025-11-11 01:11:49.2108|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|End processing HTTP request after 163.3847ms - 200|
+2025-11-11 01:11:49.2108|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Response Headers:
+Date: *
+Connection: *
+x-amzn-RequestId: *
+x-amz-apigw-id: *
+X-Amzn-Trace-Id: *
+Content-Type: *
+Content-Length: *
+|
+2025-11-11 01:17:36.3123|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider|
+2025-11-11 01:17:36.4656|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting|
+2025-11-11 01:17:36.5061|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\davic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+2025-11-11 01:17:36.5267|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\davic\AppData\Local\ASP.NET\DataProtection-Keys\key-08258664-e500-4c2b-a3ee-746e5d86085e.xml'.|
+2025-11-11 01:17:36.5336|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\davic\AppData\Local\ASP.NET\DataProtection-Keys\key-ad266bea-abc6-4df1-9ab0-1eafd46102aa.xml'.|
+2025-11-11 01:17:36.5336|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {08258664-e500-4c2b-a3ee-746e5d86085e}.|
+2025-11-11 01:17:36.5475|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {ad266bea-abc6-4df1-9ab0-1eafd46102aa}.|
+2025-11-11 01:17:36.5617|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {08258664-e500-4c2b-a3ee-746e5d86085e} with expiration date 2026-02-04 02:09:42Z as default key.|
+2025-11-11 01:17:36.5617|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60|
+2025-11-11 01:17:36.5617|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.|
+2025-11-11 01:17:36.5617|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60|
+2025-11-11 01:17:36.5784|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.|
+2025-11-11 01:17:36.5784|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.|
+2025-11-11 01:17:36.5784|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {08258664-e500-4c2b-a3ee-746e5d86085e} as the default key.|
+2025-11-11 01:17:36.5784|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {08258664-e500-4c2b-a3ee-746e5d86085e} was loaded during application startup.|
+2025-11-11 01:17:36.5784|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BlazorWasmHotReloadMiddleware|Middleware loaded|
+2025-11-11 01:17:36.5927|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16513 B).|
+2025-11-11 01:17:36.5927|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).|
+2025-11-11 01:17:36.7270|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}|
+2025-11-11 01:17:36.7270|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.|
+2025-11-11 01:17:36.7270|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true|
+2025-11-11 01:17:36.7375|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly MiniVentas.API|
+2025-11-11 01:17:36.7375|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery|
+2025-11-11 01:17:36.7375|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh|
+2025-11-11 01:17:36.7375|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net|
+2025-11-11 01:17:36.7742|DEBUG|Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider|Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.|
+2025-11-11 01:17:36.7742|DEBUG|Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider|Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.|
+2025-11-11 01:17:36.8052|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44393/_vs/browserLink - - -|
+2025-11-11 01:17:36.8052|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44393/_framework/aspnetcore-browser-refresh.js - - -|
+2025-11-11 01:17:36.8813|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Script injected: /_framework/aspnetcore-browser-refresh.js|
+2025-11-11 01:17:36.8922|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.|
+2025-11-11 01:17:36.8922|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development|
+2025-11-11 01:17:36.8922|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API|
+2025-11-11 01:17:36.8922|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started|
+2025-11-11 01:17:36.8922|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18230571297501347843" disconnecting.|
+2025-11-11 01:17:36.8922|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44393/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript;+charset=utf-8 94.4581ms|
+2025-11-11 01:17:36.9958|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18158513703463419905" disconnecting.|
+2025-11-11 01:17:37.0194|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44393/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 231.5674ms|
+2025-11-11 01:17:37.2865|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44393/swagger/v1/swagger.json - - -|
+2025-11-11 01:17:37.2865|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.|
+2025-11-11 01:17:37.3258|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'|
+2025-11-11 01:17:37.3258|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints|
+2025-11-11 01:17:37.4080|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.|
+2025-11-11 01:17:37.6480|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18014398519682531332" disconnecting.|
+2025-11-11 01:17:37.6480|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44393/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 363.0851ms|
+2025-11-11 01:17:48.6714|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:44393/api/Auth/login - application/json 49|
+2025-11-11 01:17:48.6714|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.|
+2025-11-11 01:17:48.6892|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Auth/login'|
+2025-11-11 01:17:48.6892|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'|
+2025-11-11 01:17:48.6892|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API)'|
+2025-11-11 01:17:48.6892|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.|
+2025-11-11 01:17:48.6892|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.|
+2025-11-11 01:17:48.7137|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:44393'.|
+2025-11-11 01:17:48.7137|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.|
+2025-11-11 01:17:48.7204|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API)'|
+2025-11-11 01:17:48.7541|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(MiniVentas.API.Controllers.LoginRequest) on controller MiniVentas.API.Controllers.AuthController (MiniVentas.API).|
+2025-11-11 01:17:48.7541|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None|
+2025-11-11 01:17:48.7541|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None|
+2025-11-11 01:17:48.7541|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)|
+2025-11-11 01:17:48.7541|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None|
+2025-11-11 01:17:48.7541|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)|
+2025-11-11 01:17:48.7541|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MiniVentas.API.Controllers.AuthController (MiniVentas.API)|
+2025-11-11 01:17:48.7541|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MiniVentas.API.Controllers.AuthController (MiniVentas.API)|
+2025-11-11 01:17:48.7670|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest' ...|
+2025-11-11 01:17:48.7670|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest' using the name '' in request data ...|
+2025-11-11 01:17:48.7670|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.|
+2025-11-11 01:17:48.7916|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'MiniVentas.API.Controllers.LoginRequest'|
+2025-11-11 01:17:48.7916|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest'.|
+2025-11-11 01:17:48.7916|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest'.|
+2025-11-11 01:17:48.7916|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest' ...|
+2025-11-11 01:17:48.8049|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest'.|
+2025-11-11 01:17:48.8049|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:17:48.8049|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:17:48.8241|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API) - Validation state: Valid|
+2025-11-11 01:17:48.8267|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API) with arguments (MiniVentas.API.Controllers.LoginRequest)|
+2025-11-11 01:17:48.8905|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 50.3284ms.|
+2025-11-11 01:17:48.8905|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:17:48.8905|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:17:48.8905|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:17:48.8905|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:17:48.8905|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.|
+2025-11-11 01:17:48.8905|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter|
+2025-11-11 01:17:48.8905|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.|
+2025-11-11 01:17:48.8905|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.|
+2025-11-11 01:17:48.8905|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.|
+2025-11-11 01:17:48.8905|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.|
+2025-11-11 01:17:48.8905|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], MiniVentas.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.|
+2025-11-11 01:17:48.9295|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.|
+2025-11-11 01:17:48.9295|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:17:48.9295|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:17:48.9384|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API) in 173.7535ms|
+2025-11-11 01:17:48.9384|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API)'|
+2025-11-11 01:17:48.9384|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18158513703463419907" disconnecting.|
+2025-11-11 01:17:48.9384|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:44393/api/Auth/login - 200 - application/json;+charset=utf-8 271.3251ms|
+2025-11-11 01:18:32.0642|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:44393/api/Casos/ListarCasos - application/json 75|
+2025-11-11 01:18:32.0642|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.|
+2025-11-11 01:18:32.0642|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Casos/ListarCasos'|
+2025-11-11 01:18:32.0642|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)' with route pattern 'api/Casos/ListarCasos' is valid for the request path '/api/Casos/ListarCasos'|
+2025-11-11 01:18:32.0642|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:18:32.0642|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.|
+2025-11-11 01:18:32.1333|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.|
+2025-11-11 01:18:32.1333|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.|
+2025-11-11 01:18:32.1423|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:44393'.|
+2025-11-11 01:18:32.1423|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.|
+2025-11-11 01:18:32.1423|DEBUG|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.|
+2025-11-11 01:18:32.1423|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:18:32.1581|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ListarCasos", controller = "Casos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MiniVentas.Domain.Entities.Util.ApiResponse`1[MiniVentas.Application.DTOs.Casos.Response.ListadoSolicitudesFilterResponseDto]]] ListarCasos(MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto) on controller MiniVentas.API.Controllers.CasosController (MiniVentas.API).|
+2025-11-11 01:18:32.1581|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None|
+2025-11-11 01:18:32.1581|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None|
+2025-11-11 01:18:32.1581|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)|
+2025-11-11 01:18:32.1581|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None|
+2025-11-11 01:18:32.1581|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)|
+2025-11-11 01:18:32.1581|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MiniVentas.API.Controllers.CasosController (MiniVentas.API)|
+2025-11-11 01:18:32.1581|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MiniVentas.API.Controllers.CasosController (MiniVentas.API)|
+2025-11-11 01:18:32.1581|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' ...|
+2025-11-11 01:18:32.1581|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' using the name '' in request data ...|
+2025-11-11 01:18:32.1581|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.|
+2025-11-11 01:18:32.1581|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'|
+2025-11-11 01:18:32.1581|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:18:32.1581|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:18:32.1581|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' ...|
+2025-11-11 01:18:32.1581|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:18:32.1581|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:18:32.1581|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:18:32.1581|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) - Validation state: Valid|
+2025-11-11 01:18:32.1581|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) with arguments (MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto)|
+2025-11-11 01:18:42.5299|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Start processing HTTP request POST https://apis.visivaedu.com/api-integration-360/v1/auth/|
+2025-11-11 01:18:42.5299|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Request Headers:
+x-api-key: *
+Content-Type: *
+|
+2025-11-11 01:18:42.5299|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Sending HTTP request POST https://apis.visivaedu.com/api-integration-360/v1/auth/|
+2025-11-11 01:18:42.5299|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Request Headers:
+x-api-key: *
+Content-Type: *
+|
+2025-11-11 01:18:43.1462|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Received HTTP response headers after 606.2061ms - 200|
+2025-11-11 01:18:43.1462|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Response Headers:
+Date: *
+Connection: *
+x-amzn-RequestId: *
+x-amz-apigw-id: *
+X-Amzn-Trace-Id: *
+Content-Type: *
+Content-Length: *
+|
+2025-11-11 01:18:43.1462|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|End processing HTTP request after 622.7259ms - 200|
+2025-11-11 01:18:43.1462|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Response Headers:
+Date: *
+Connection: *
+x-amzn-RequestId: *
+x-amz-apigw-id: *
+X-Amzn-Trace-Id: *
+Content-Type: *
+Content-Length: *
+|
+2025-11-11 01:19:14.0749|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Start processing HTTP request POST https://apis.visivaedu.com/api-integration-360/v1/listcysrequests|
+2025-11-11 01:19:14.0749|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Request Headers:
+x-api-key: *
+Authorization: *
+Content-Type: *
+|
+2025-11-11 01:19:14.0749|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Sending HTTP request POST https://apis.visivaedu.com/api-integration-360/v1/listcysrequests|
+2025-11-11 01:19:14.0749|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Request Headers:
+x-api-key: *
+Authorization: *
+Content-Type: *
+|
+2025-11-11 01:19:14.2127|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Received HTTP response headers after 137.5002ms - 403|
+2025-11-11 01:19:14.2127|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Response Headers:
+Date: *
+Connection: *
+x-amzn-RequestId: *
+x-amzn-ErrorType: *
+x-amz-apigw-id: *
+Content-Type: *
+Content-Length: *
+|
+2025-11-11 01:19:14.2127|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|End processing HTTP request after 137.9471ms - 403|
+2025-11-11 01:19:14.2127|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Response Headers:
+Date: *
+Connection: *
+x-amzn-RequestId: *
+x-amzn-ErrorType: *
+x-amz-apigw-id: *
+Content-Type: *
+Content-Length: *
+|
+2025-11-11 01:19:50.6402|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:19:50.6402|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:19:50.6402|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) in 78487.9611ms|
+2025-11-11 01:19:50.6402|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:19:50.7894|ERROR|MiniVentas.API.Middleware.ErrorHandlingMiddleware|Error HTTP 500 capturado por middleware global|System.Net.Http.HttpRequestException: Response status code does not indicate success: 403 (Forbidden).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at MiniVentas.Infrastructure.ExternalServices.VisivaApi.VisivaApiRepository.ObtenerCasosAsync(String token, VisivaCasosRequestDto request) in E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.Infrastructure\ExternalServices\VisivaApi\VisivaApiRepository.cs:line 60
+   at MiniVentas.Application.Features.VisivaApis.Queries.GetCasosQueryHandler.Handle(GetCasosQuery request, CancellationToken cancellationToken) in E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.Application\Features\Casos\Queries\GetCasos.cs:line 52
+   at MiniVentas.API.Controllers.CasosController.ListarCasos(ListadoSolicitudesFilterRequestDto request) in E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API\Controllers\CasosController.cs:line 35
+   at lambda_method9(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at MiniVentas.API.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API\Middleware\ErrorHandlingMiddleware.cs:line 28
+2025-11-11 01:19:50.8457|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:44393/api/Casos/ListarCasos - 500 - application/json;+charset=utf-8 78781.7380ms|
+2025-11-11 01:20:37.8228|DEBUG|Microsoft.Extensions.Http.DefaultHttpClientFactory|HttpMessageHandler expired after 120000ms for client 'IVisivaApiRepository'|
+2025-11-11 01:20:47.8580|DEBUG|Microsoft.Extensions.Http.DefaultHttpClientFactory|Starting HttpMessageHandler cleanup cycle with 1 items|
+2025-11-11 01:20:47.8592|DEBUG|Microsoft.Extensions.Http.DefaultHttpClientFactory|Ending HttpMessageHandler cleanup cycle after 0.3134ms - processed: 0 items - remaining: 1 items|
+2025-11-11 01:20:57.8825|DEBUG|Microsoft.Extensions.Http.DefaultHttpClientFactory|Starting HttpMessageHandler cleanup cycle with 1 items|
+2025-11-11 01:20:57.8825|DEBUG|Microsoft.Extensions.Http.DefaultHttpClientFactory|Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 1 items|
+2025-11-11 01:21:07.8927|DEBUG|Microsoft.Extensions.Http.DefaultHttpClientFactory|Starting HttpMessageHandler cleanup cycle with 1 items|
+2025-11-11 01:21:07.8927|DEBUG|Microsoft.Extensions.Http.DefaultHttpClientFactory|Ending HttpMessageHandler cleanup cycle after 0.0049ms - processed: 0 items - remaining: 1 items|
+2025-11-11 01:21:17.9015|DEBUG|Microsoft.Extensions.Http.DefaultHttpClientFactory|Starting HttpMessageHandler cleanup cycle with 1 items|
+2025-11-11 01:21:17.9015|DEBUG|Microsoft.Extensions.Http.DefaultHttpClientFactory|Ending HttpMessageHandler cleanup cycle after 0.0627ms - processed: 0 items - remaining: 1 items|
+2025-11-11 01:21:27.9043|DEBUG|Microsoft.Extensions.Http.DefaultHttpClientFactory|Starting HttpMessageHandler cleanup cycle with 1 items|
+2025-11-11 01:21:27.9043|DEBUG|Microsoft.Extensions.Http.DefaultHttpClientFactory|Ending HttpMessageHandler cleanup cycle after 0.2921ms - processed: 1 items - remaining: 0 items|
+2025-11-11 01:26:29.4390|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider|
+2025-11-11 01:26:29.5380|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting|
+2025-11-11 01:26:29.5703|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\davic\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.|
+2025-11-11 01:26:29.5873|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\davic\AppData\Local\ASP.NET\DataProtection-Keys\key-08258664-e500-4c2b-a3ee-746e5d86085e.xml'.|
+2025-11-11 01:26:29.5940|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\davic\AppData\Local\ASP.NET\DataProtection-Keys\key-ad266bea-abc6-4df1-9ab0-1eafd46102aa.xml'.|
+2025-11-11 01:26:29.5940|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {08258664-e500-4c2b-a3ee-746e5d86085e}.|
+2025-11-11 01:26:29.5940|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {ad266bea-abc6-4df1-9ab0-1eafd46102aa}.|
+2025-11-11 01:26:29.6196|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {08258664-e500-4c2b-a3ee-746e5d86085e} with expiration date 2026-02-04 02:09:42Z as default key.|
+2025-11-11 01:26:29.6234|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60|
+2025-11-11 01:26:29.6234|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.|
+2025-11-11 01:26:29.6234|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60|
+2025-11-11 01:26:29.6234|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.|
+2025-11-11 01:26:29.6234|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.|
+2025-11-11 01:26:29.6234|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {08258664-e500-4c2b-a3ee-746e5d86085e} as the default key.|
+2025-11-11 01:26:29.6234|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {08258664-e500-4c2b-a3ee-746e5d86085e} was loaded during application startup.|
+2025-11-11 01:26:29.6466|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BlazorWasmHotReloadMiddleware|Middleware loaded|
+2025-11-11 01:26:29.6466|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16513 B).|
+2025-11-11 01:26:29.6466|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).|
+2025-11-11 01:26:29.7840|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}|
+2025-11-11 01:26:29.7840|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.|
+2025-11-11 01:26:29.7840|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true|
+2025-11-11 01:26:29.8234|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly MiniVentas.API|
+2025-11-11 01:26:29.8234|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery|
+2025-11-11 01:26:29.8234|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh|
+2025-11-11 01:26:29.8234|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net|
+2025-11-11 01:26:29.8484|DEBUG|Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider|Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.|
+2025-11-11 01:26:29.8484|DEBUG|Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider|Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.|
+2025-11-11 01:26:29.8750|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44393/_vs/browserLink - - -|
+2025-11-11 01:26:29.8750|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44393/_framework/aspnetcore-browser-refresh.js - - -|
+2025-11-11 01:26:29.9801|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Script injected: /_framework/aspnetcore-browser-refresh.js|
+2025-11-11 01:26:30.0012|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18158513699168452614" disconnecting.|
+2025-11-11 01:26:30.0012|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44393/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript;+charset=utf-8 122.7745ms|
+2025-11-11 01:26:30.0699|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.|
+2025-11-11 01:26:30.0699|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development|
+2025-11-11 01:26:30.0699|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\RepositorioNet\APIS_MINI_VENTAS_CLEAN\arquitectura_limpia\CQRS_CLEAN\MiniVentas\MiniVentas.API|
+2025-11-11 01:26:30.0699|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started|
+2025-11-11 01:26:30.0893|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686481282236419" disconnecting.|
+2025-11-11 01:26:30.0893|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44393/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 232.4382ms|
+2025-11-11 01:26:30.1895|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44393/swagger/v1/swagger.json - - -|
+2025-11-11 01:26:30.2197|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.|
+2025-11-11 01:26:30.2549|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'|
+2025-11-11 01:26:30.2549|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints|
+2025-11-11 01:26:30.3754|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.|
+2025-11-11 01:26:30.5801|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18158513707758387211" disconnecting.|
+2025-11-11 01:26:30.5801|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44393/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 393.7548ms|
+2025-11-11 01:26:39.3043|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:44393/api/Auth/login - application/json 49|
+2025-11-11 01:26:39.3043|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.|
+2025-11-11 01:26:39.3157|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Auth/login'|
+2025-11-11 01:26:39.3157|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API)' with route pattern 'api/Auth/login' is valid for the request path '/api/Auth/login'|
+2025-11-11 01:26:39.3157|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API)'|
+2025-11-11 01:26:39.3157|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.|
+2025-11-11 01:26:39.3157|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.|
+2025-11-11 01:26:39.3326|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:44393'.|
+2025-11-11 01:26:39.3326|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.|
+2025-11-11 01:26:39.3326|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API)'|
+2025-11-11 01:26:39.3645|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(MiniVentas.API.Controllers.LoginRequest) on controller MiniVentas.API.Controllers.AuthController (MiniVentas.API).|
+2025-11-11 01:26:39.3645|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None|
+2025-11-11 01:26:39.3645|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None|
+2025-11-11 01:26:39.3645|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)|
+2025-11-11 01:26:39.3645|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None|
+2025-11-11 01:26:39.3645|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)|
+2025-11-11 01:26:39.3645|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MiniVentas.API.Controllers.AuthController (MiniVentas.API)|
+2025-11-11 01:26:39.3645|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MiniVentas.API.Controllers.AuthController (MiniVentas.API)|
+2025-11-11 01:26:39.3764|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest' ...|
+2025-11-11 01:26:39.3764|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest' using the name '' in request data ...|
+2025-11-11 01:26:39.3764|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.|
+2025-11-11 01:26:39.4004|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'MiniVentas.API.Controllers.LoginRequest'|
+2025-11-11 01:26:39.4004|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest'.|
+2025-11-11 01:26:39.4004|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest'.|
+2025-11-11 01:26:39.4004|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest' ...|
+2025-11-11 01:26:39.4134|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'request' of type 'MiniVentas.API.Controllers.LoginRequest'.|
+2025-11-11 01:26:39.4134|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:26:39.4134|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:26:39.4314|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API) - Validation state: Valid|
+2025-11-11 01:26:39.4314|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API) with arguments (MiniVentas.API.Controllers.LoginRequest)|
+2025-11-11 01:26:39.5056|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 53.5583ms.|
+2025-11-11 01:26:39.5056|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:26:39.5056|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:26:39.5056|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:26:39.5056|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:26:39.5056|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.|
+2025-11-11 01:26:39.5149|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter|
+2025-11-11 01:26:39.5149|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.|
+2025-11-11 01:26:39.5149|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.|
+2025-11-11 01:26:39.5149|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.|
+2025-11-11 01:26:39.5149|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.|
+2025-11-11 01:26:39.5149|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type '<>f__AnonymousType0`3[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], MiniVentas.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.|
+2025-11-11 01:26:39.5401|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.|
+2025-11-11 01:26:39.5401|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:26:39.5401|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:26:39.5494|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API) in 174.2909ms|
+2025-11-11 01:26:39.5494|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MiniVentas.API.Controllers.AuthController.Login (MiniVentas.API)'|
+2025-11-11 01:26:39.5494|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18158513707758387213" disconnecting.|
+2025-11-11 01:26:39.5494|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:44393/api/Auth/login - 200 - application/json;+charset=utf-8 251.1653ms|
+2025-11-11 01:27:07.8091|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:44393/api/Casos/ListarCasos - application/json 72|
+2025-11-11 01:27:07.8091|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.|
+2025-11-11 01:27:07.8131|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Casos/ListarCasos'|
+2025-11-11 01:27:07.8131|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)' with route pattern 'api/Casos/ListarCasos' is valid for the request path '/api/Casos/ListarCasos'|
+2025-11-11 01:27:07.8131|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:27:07.8131|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.|
+2025-11-11 01:27:07.9656|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.|
+2025-11-11 01:27:07.9716|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.|
+2025-11-11 01:27:08.0199|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:44393'.|
+2025-11-11 01:27:08.0199|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.|
+2025-11-11 01:27:08.0388|DEBUG|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful.|
+2025-11-11 01:27:08.0388|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:27:08.0624|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "ListarCasos", controller = "Casos"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[MiniVentas.Domain.Entities.Util.ApiResponse`1[MiniVentas.Application.DTOs.Casos.Response.ListadoSolicitudesFilterResponseDto]]] ListarCasos(MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto) on controller MiniVentas.API.Controllers.CasosController (MiniVentas.API).|
+2025-11-11 01:27:08.0624|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None|
+2025-11-11 01:27:08.0624|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None|
+2025-11-11 01:27:08.0624|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)|
+2025-11-11 01:27:08.0624|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None|
+2025-11-11 01:27:08.0624|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)|
+2025-11-11 01:27:08.0624|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller MiniVentas.API.Controllers.CasosController (MiniVentas.API)|
+2025-11-11 01:27:08.0814|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller MiniVentas.API.Controllers.CasosController (MiniVentas.API)|
+2025-11-11 01:27:08.0814|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' ...|
+2025-11-11 01:27:08.0814|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' using the name '' in request data ...|
+2025-11-11 01:27:08.0814|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.|
+2025-11-11 01:27:08.0931|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'|
+2025-11-11 01:27:08.0931|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:27:08.0931|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:27:08.0931|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto' ...|
+2025-11-11 01:27:08.0931|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'request' of type 'MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto'.|
+2025-11-11 01:27:08.0931|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:27:08.0931|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:27:08.0931|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) - Validation state: Valid|
+2025-11-11 01:27:08.0931|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) with arguments (MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto)|
+2025-11-11 01:27:37.2346|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Start processing HTTP request POST https://apis.visivaedu.com/api-integration-360/v1/auth/|
+2025-11-11 01:27:37.2346|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Request Headers:
+x-api-key: *
+Content-Type: *
+|
+2025-11-11 01:27:37.2346|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Sending HTTP request POST https://apis.visivaedu.com/api-integration-360/v1/auth/|
+2025-11-11 01:27:37.2346|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Request Headers:
+x-api-key: *
+Content-Type: *
+|
+2025-11-11 01:27:37.9533|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Received HTTP response headers after 703.6635ms - 200|
+2025-11-11 01:27:37.9533|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Response Headers:
+Date: *
+Connection: *
+x-amzn-RequestId: *
+x-amz-apigw-id: *
+X-Amzn-Trace-Id: *
+Content-Type: *
+Content-Length: *
+|
+2025-11-11 01:27:37.9533|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|End processing HTTP request after 722.2745ms - 200|
+2025-11-11 01:27:37.9533|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Response Headers:
+Date: *
+Connection: *
+x-amzn-RequestId: *
+x-amz-apigw-id: *
+X-Amzn-Trace-Id: *
+Content-Type: *
+Content-Length: *
+|
+2025-11-11 01:27:46.4678|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Start processing HTTP request POST https://apis.visivaedu.com/api-integration-360/v1/listcysrequests|
+2025-11-11 01:27:46.4678|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Request Headers:
+Authorization: *
+x-api-key: *
+Content-Type: *
+|
+2025-11-11 01:27:46.4678|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Sending HTTP request POST https://apis.visivaedu.com/api-integration-360/v1/listcysrequests|
+2025-11-11 01:27:46.4678|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Request Headers:
+Authorization: *
+x-api-key: *
+Content-Type: *
+|
+2025-11-11 01:27:47.2769|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Received HTTP response headers after 806.3275ms - 200|
+2025-11-11 01:27:47.2769|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.ClientHandler|Response Headers:
+Date: *
+Connection: *
+x-amzn-RequestId: *
+x-amz-apigw-id: *
+X-Amzn-Trace-Id: *
+Content-Type: *
+Content-Length: *
+|
+2025-11-11 01:27:47.2769|INFO|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|End processing HTTP request after 809.2655ms - 200|
+2025-11-11 01:27:47.2769|TRACE|System.Net.Http.HttpClient.IVisivaApiRepository.LogicalHandler|Response Headers:
+Date: *
+Connection: *
+x-amzn-RequestId: *
+x-amz-apigw-id: *
+X-Amzn-Trace-Id: *
+Content-Type: *
+Content-Length: *
+|
+2025-11-11 01:28:19.9596|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 71858.8717ms.|
+2025-11-11 01:28:19.9596|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:28:19.9596|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.|
+2025-11-11 01:28:19.9596|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:28:19.9596|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:28:19.9596|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.|
+2025-11-11 01:28:19.9596|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter|
+2025-11-11 01:28:19.9596|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'.|
+2025-11-11 01:28:19.9596|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain)|
+2025-11-11 01:28:19.9596|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.|
+2025-11-11 01:28:19.9596|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.|
+2025-11-11 01:28:19.9596|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.|
+2025-11-11 01:28:19.9596|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'MiniVentas.Domain.Entities.Util.ApiResponse`1[[MiniVentas.Application.DTOs.Casos.Response.ListadoSolicitudesFilterResponseDto, MiniVentas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.|
+2025-11-11 01:28:22.1453|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.|
+2025-11-11 01:28:22.1453|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:28:22.1453|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.|
+2025-11-11 01:28:22.1453|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API) in 74081.6625ms|
+2025-11-11 01:28:22.1453|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'MiniVentas.API.Controllers.CasosController.ListarCasos (MiniVentas.API)'|
+2025-11-11 01:28:22.1453|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18230571306091282434" disconnecting.|
+2025-11-11 01:28:22.1453|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:44393/api/Casos/ListarCasos - 200 - application/json;+charset=utf-8 74340.3857ms|

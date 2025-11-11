@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <Folder Include="External\DTOs\FakeStoreProducto\GetProductoById\Request\" />
+    <Folder Include="Features\Casos\Commands\" />
   </ItemGroup>
 
 </Project>

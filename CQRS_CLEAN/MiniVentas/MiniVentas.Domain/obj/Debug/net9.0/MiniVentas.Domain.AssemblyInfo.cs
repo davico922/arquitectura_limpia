@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniVentas.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d63acde391e9692058dd160412a6e5ac17c6141")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+614de7ff2bfe07c7ad304b4d746fa8fd54cded45")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniVentas.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniVentas.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

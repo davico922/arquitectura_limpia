@@ -2,9 +2,12 @@
 using Microsoft.Extensions.DependencyInjection;
 using MiniVentas.Application.External.Interfaces.FakeStoreProducto;
 using MiniVentas.Application.External.Settings.FakeStoreProducto;
+using MiniVentas.Application.External.Settings.VisivaApis;
 using MiniVentas.Domain.Interfaces;
+using MiniVentas.Domain.Interfaces.External.VisivaApis;
 using MiniVentas.Infrastructure.Context;
 using MiniVentas.Infrastructure.ExternalServices.FakeStoreProducto;
+using MiniVentas.Infrastructure.ExternalServices.VisivaApi;
 using MiniVentas.Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
@@ -43,6 +46,14 @@ public static  class DependencyInjection
 
         //registros la interface
         services.AddHttpClient<IFakeStoreProducto, FakeStoreProductoRepositoryProxy>();
+
+        //registramos el token el repositorito
+
+        services.Configure<VisivaApiSettings>(
+            configuration.GetSection("VisivaApiSettings")
+            );
+
+        services.AddHttpClient<IVisivaApiRepository,VisivaApiRepository>();
 
 
 

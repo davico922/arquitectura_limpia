@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniVentas.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c94782bb777142167b11222ec7f791601bb15db2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+614de7ff2bfe07c7ad304b4d746fa8fd54cded45")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniVentas.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniVentas.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

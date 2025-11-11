@@ -204,3 +204,14 @@ MNI_VENTAS.sln
    ├─ Maneja acceso a datos (Dapper/EF), HttpClients, logs, etc.
    └─ Expone método AddInfrastructure(configuration) para registrar todo en DI
 
+
+
+| Capa            | Qué define                                              | Cuándo poner una interfaz ahí                                                                                                                                                                                       |
+| --------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Domain**      | Reglas del negocio y contratos “centrales” del dominio. | Cuando la interfaz representa **una dependencia genérica o estructural** del dominio, por ejemplo, un repositorio o un servicio externo fundamental.                                                                |
+| **Application** | Casos de uso, DTOs, lógica orquestadora.                | Cuando la interfaz representa **una dependencia específica de un caso de uso**, o sea, algo que **solo sirve para una funcionalidad particular** (por ejemplo, un proxy de API temporal o una regla de validación). |
+
+| Caso                                                                                      | Dónde va la interfaz |
+| ----------------------------------------------------------------------------------------- | -------------------- |
+| El API forma parte del proceso del negocio (autenticación, facturación, validación, etc.) | 🧩 **Domain**        |
+| El API solo entrega datos externos que tu app consume o transforma                        | ⚙️ **Application**   |

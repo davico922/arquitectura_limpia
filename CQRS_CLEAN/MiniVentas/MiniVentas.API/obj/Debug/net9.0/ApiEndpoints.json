@@ -16,6 +16,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "MiniVentas.API.Controllers.CasosController",
+    "Method": "ListarCasos",
+    "RelativePath": "api/Casos/ListarCasos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MiniVentas.Application.DTOs.Casos.Request.ListadoSolicitudesFilterRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MiniVentas.Domain.Entities.Util.ApiResponse\u00601[[MiniVentas.Application.DTOs.Casos.Response.ListadoSolicitudesFilterResponseDto, MiniVentas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "MiniVentas.API.Controllers.ExternalController",
     "Method": "GetProductoById",
     "RelativePath": "api/External/{id}",
